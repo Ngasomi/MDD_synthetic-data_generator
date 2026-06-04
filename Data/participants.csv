@@ -1,0 +1,1001 @@
+participant_id,age,sex,ethnicity,site_region,time_zone,device_phone_os,wearable_type,baseline_phq_score,initial_severity_group,adherence_risk_profile,treatment_type,treatment_start_date,final_week12_PHQ_score,final_change_from_baseline,final_percent_change_from_baseline,final_response_status,final_remission_status,final_worsening_status,week12_treatment_review_decision,time_to_response_weeks,sustained_improvement_flag,trajectory_group_derived
+0,42,female,African,Nairobi,Africa/Nairobi,iOS,Samsung Watch,16,moderately_severe,high,combined,2024-01-01,13.8,-2.2,13.75,non_responder,no,no,adjust,,0,non_responder
+1,45,female,East Asian,Berlin,Europe/Berlin,iOS,Garmin,14,moderate,medium,combined,2024-01-01,5.2,-8.8,62.86,responder,no,no,maintain,10.0,1,non_responder
+2,40,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,medium,combined,2024-01-01,2.9,-11.1,79.29,responder,yes,no,maintain,6.0,1,delayed_responder
+3,62,female,Latino/Hispanic,London,Europe/London,Android,Apple Watch,14,moderate,high,combined,2024-01-01,4.2,-9.8,70.0,responder,yes,no,maintain,8.0,1,delayed_responder
+4,46,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,2.0,1,early_responder
+5,41,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,12,moderate,low,combined,2024-01-01,6.9,-5.1,42.5,partial_responder,no,no,maintain,,0,partial_responder
+6,65,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,13,moderate,low,therapy,2024-01-01,2.7,-10.3,79.23,responder,yes,no,maintain,6.0,1,delayed_responder
+7,36,male,Mixed/Other,Mumbai,Asia/Kolkata,iOS,Fitbit,21,severe,medium,therapy,2024-01-01,15.1,-5.9,28.1,partial_responder,no,no,maintain,,0,unstable_responder
+8,61,female,Latino/Hispanic,London,Europe/London,Android,Xiaomi Band,12,moderate,low,antidepressant,2024-01-01,3.7,-8.3,69.17,responder,yes,no,maintain,12.0,1,non_responder
+9,58,female,Mixed/Other,London,Europe/London,iOS,Fitbit,12,moderate,low,combined,2024-01-01,1.9,-10.1,84.17,responder,yes,no,maintain,10.0,1,non_responder
+10,39,male,South Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,8,mild,high,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+11,43,female,East Asian,Berlin,Europe/Berlin,Android,Fitbit,19,moderately_severe,low,antidepressant,2024-01-01,10.8,-8.2,43.16,partial_responder,no,no,adjust,,0,partial_responder
+12,26,female,South Asian,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,17,moderately_severe,low,combined,2024-01-01,9.4,-7.6,44.71,partial_responder,no,no,maintain,,0,partial_responder
+13,20,female,European,Berlin,Europe/Berlin,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,3.1,-13.9,81.76,responder,yes,no,maintain,8.0,1,delayed_responder
+14,20,female,African,Nairobi,Africa/Nairobi,Android,Garmin,8,mild,medium,antidepressant,2024-01-01,3.1,-4.9,61.25,responder,yes,no,maintain,6.0,0,non_responder
+15,48,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,17,moderately_severe,low,antidepressant,2024-01-01,4.0,-13.0,76.47,responder,yes,no,maintain,8.0,1,delayed_responder
+16,38,female,African,Berlin,Europe/Berlin,iOS,Fitbit,17,moderately_severe,high,therapy,2024-01-01,10.4,-6.6,38.82,partial_responder,no,no,maintain,,0,partial_responder
+17,36,male,South Asian,London,Europe/London,iOS,Xiaomi Band,20,severe,medium,combined,2024-01-01,17.0,-3.0,15.0,non_responder,no,no,adjust,,0,non_responder
+18,31,female,African,Berlin,Europe/Berlin,iOS,Fitbit,18,moderately_severe,high,antidepressant,2024-01-01,15.9,-2.1,11.67,non_responder,no,no,switch,,0,non_responder
+19,21,male,African,Berlin,Europe/Berlin,iOS,Garmin,14,moderate,low,antidepressant,2024-01-01,1.9,-12.1,86.43,responder,yes,no,maintain,8.0,1,delayed_responder
+20,62,female,East Asian,Berlin,Europe/Berlin,iOS,Apple Watch,16,moderately_severe,medium,antidepressant,2024-01-01,7.7,-8.3,51.88,responder,no,no,maintain,12.0,1,non_responder
+21,40,male,European,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Xiaomi Band,14,moderate,low,antidepressant,2024-01-01,3.3,-10.7,76.43,responder,yes,no,maintain,6.0,1,delayed_responder
+22,61,female,African,Berlin,Europe/Berlin,Android,Apple Watch,10,moderate,low,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+23,29,female,East Asian,Berlin,Europe/Berlin,Android,Apple Watch,11,moderate,low,combined,2024-01-01,3.4,-7.6,69.09,responder,yes,no,maintain,10.0,1,non_responder
+24,58,female,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Fitbit,15,moderately_severe,low,combined,2024-01-01,7.8,-7.2,48.0,partial_responder,no,no,maintain,,0,partial_responder
+25,43,female,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,14,moderate,medium,therapy,2024-01-01,8.0,-6.0,42.86,partial_responder,no,no,adjust,,0,partial_responder
+26,35,male,South Asian,Nairobi,Africa/Nairobi,Android,Fitbit,21,severe,medium,combined,2024-01-01,18.0,-3.0,14.29,non_responder,no,no,adjust,,0,non_responder
+27,56,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Samsung Watch,17,moderately_severe,medium,combined,2024-01-01,7.9,-9.1,53.53,responder,no,no,maintain,12.0,1,non_responder
+28,63,female,Middle Eastern/North African,London,Europe/London,Android,Apple Watch,17,moderately_severe,medium,therapy,2024-01-01,8.7,-8.3,48.82,partial_responder,no,no,adjust,,0,partial_responder
+29,34,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,10,moderate,low,combined,2024-01-01,4.0,-6.0,60.0,responder,yes,no,maintain,12.0,1,non_responder
+30,40,male,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,8,mild,low,antidepressant,2024-01-01,4.2,-3.8,47.5,partial_responder,yes,no,adjust,,0,partial_responder
+31,18,male,East Asian,Accra,Africa/Accra,iOS,Xiaomi Band,20,severe,medium,combined,2024-01-01,11.0,-9.0,45.0,partial_responder,no,no,maintain,,0,partial_responder
+32,31,female,East Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,15,moderately_severe,medium,antidepressant,2024-01-01,3.8,-11.2,74.67,responder,yes,no,maintain,12.0,1,non_responder
+33,57,female,South Asian,Berlin,Europe/Berlin,Android,Apple Watch,14,moderate,medium,therapy,2024-01-01,4.9,-9.1,65.0,responder,yes,no,maintain,12.0,1,non_responder
+34,18,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Apple Watch,15,moderately_severe,high,therapy,2024-01-01,8.1,-6.9,46.0,partial_responder,no,no,adjust,,0,partial_responder
+35,42,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,11,moderate,high,combined,2024-01-01,3.5,-7.5,68.18,responder,yes,no,maintain,12.0,1,non_responder
+36,39,female,European,Berlin,Europe/Berlin,Android,Fitbit,20,severe,medium,therapy,2024-01-01,10.0,-10.0,50.0,responder,no,no,maintain,12.0,1,non_responder
+37,60,female,Mixed/Other,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,low,therapy,2024-01-01,4.5,-11.5,71.88,responder,yes,no,maintain,10.0,1,non_responder
+38,25,female,African,London,Europe/London,iOS,Apple Watch,15,moderately_severe,medium,therapy,2024-01-01,4.6,-10.4,69.33,responder,yes,no,maintain,10.0,1,non_responder
+39,65,female,European,London,Europe/London,Android,Apple Watch,13,moderate,medium,antidepressant,2024-01-01,2.1,-10.9,83.85,responder,yes,no,maintain,8.0,1,delayed_responder
+40,38,female,European,Berlin,Europe/Berlin,Android,Fitbit,17,moderately_severe,high,combined,2024-01-01,7.1,-9.9,58.24,responder,no,no,maintain,12.0,1,non_responder
+41,46,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,17,moderately_severe,low,therapy,2024-01-01,5.9,-11.1,65.29,responder,no,no,maintain,6.0,1,delayed_responder
+42,30,female,East Asian,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,medium,combined,2024-01-01,14.6,-2.4,14.12,non_responder,no,no,switch,,0,non_responder
+43,59,female,European,London,Europe/London,iOS,Apple Watch,12,moderate,low,therapy,2024-01-01,0.3,-11.7,97.5,responder,yes,no,maintain,8.0,1,delayed_responder
+44,53,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,11,moderate,high,antidepressant,2024-01-01,8.0,-3.0,27.27,partial_responder,no,no,adjust,,0,partial_responder
+45,33,female,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Garmin,12,moderate,medium,antidepressant,2024-01-01,5.2,-6.8,56.67,responder,no,no,maintain,10.0,1,non_responder
+46,47,female,East Asian,Berlin,Europe/Berlin,iOS,Xiaomi Band,15,moderately_severe,low,therapy,2024-01-01,9.5,-5.5,36.67,partial_responder,no,no,maintain,,0,partial_responder
+47,63,female,European,Berlin,Europe/Berlin,Android,Fitbit,11,moderate,medium,combined,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+48,45,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,high,combined,2024-01-01,5.6,-12.4,68.89,responder,no,no,maintain,10.0,1,non_responder
+49,52,male,East Asian,Berlin,Europe/Berlin,iOS,Samsung Watch,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,2.0,1,early_responder
+50,21,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Fitbit,16,moderately_severe,medium,therapy,2024-01-01,4.2,-11.8,73.75,responder,yes,no,maintain,8.0,1,delayed_responder
+51,48,female,East Asian,Berlin,Europe/Berlin,iOS,Garmin,14,moderate,medium,antidepressant,2024-01-01,9.7,-4.3,30.71,partial_responder,no,no,maintain,,0,partial_responder
+52,26,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,8,mild,high,therapy,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+53,65,male,Latino/Hispanic,London,Europe/London,Android,Xiaomi Band,14,moderate,medium,antidepressant,2024-01-01,6.8,-7.2,51.43,responder,no,no,maintain,8.0,1,delayed_responder
+54,28,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,15,moderately_severe,high,therapy,2024-01-01,9.3,-5.7,38.0,partial_responder,no,no,adjust,,0,partial_responder
+55,33,female,African,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,medium,antidepressant,2024-01-01,5.7,-12.3,68.33,responder,no,no,maintain,10.0,1,non_responder
+56,52,male,Mixed/Other,Nairobi,Africa/Nairobi,Android,Garmin,11,moderate,low,antidepressant,2024-01-01,8.4,-2.6,23.64,non_responder,no,no,switch,,0,non_responder
+57,44,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,21,severe,medium,antidepressant,2024-01-01,10.1,-10.9,51.9,responder,no,no,maintain,12.0,1,non_responder
+58,22,female,Latino/Hispanic,Mumbai,Asia/Kolkata,iOS,Apple Watch,20,severe,medium,therapy,2024-01-01,12.0,-8.0,40.0,partial_responder,no,no,maintain,,0,partial_responder
+59,40,male,African,Accra,Africa/Accra,iOS,Xiaomi Band,17,moderately_severe,low,combined,2024-01-01,3.6,-13.4,78.82,responder,yes,no,maintain,6.0,1,delayed_responder
+60,24,male,South Asian,Berlin,Europe/Berlin,Android,Fitbit,23,severe,medium,antidepressant,2024-01-01,10.3,-12.7,55.22,responder,no,no,maintain,12.0,1,non_responder
+61,18,female,European,London,Europe/London,Android,Xiaomi Band,13,moderate,medium,combined,2024-01-01,2.3,-10.7,82.31,responder,yes,no,maintain,8.0,1,delayed_responder
+62,23,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,18,moderately_severe,high,antidepressant,2024-01-01,9.0,-9.0,50.0,responder,no,no,maintain,12.0,1,non_responder
+63,23,female,East Asian,Accra,Africa/Accra,Android,Xiaomi Band,16,moderately_severe,medium,therapy,2024-01-01,8.7,-7.3,45.63,partial_responder,no,no,adjust,,0,partial_responder
+64,35,female,African,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,22,severe,medium,combined,2024-01-01,18.8,-3.2,14.55,non_responder,no,no,switch,,0,non_responder
+65,43,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,low,therapy,2024-01-01,3.8,-14.2,78.89,responder,yes,no,maintain,8.0,1,delayed_responder
+66,42,female,Latino/Hispanic,Accra,Africa/Accra,iOS,Apple Watch,14,moderate,medium,antidepressant,2024-01-01,6.2,-7.8,55.71,responder,no,no,maintain,12.0,1,non_responder
+67,28,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,medium,combined,2024-01-01,4.0,-12.0,75.0,responder,yes,no,maintain,8.0,1,delayed_responder
+68,30,male,African,Accra,Africa/Accra,Android,Samsung Watch,13,moderate,low,antidepressant,2024-01-01,8.1,-4.9,37.69,partial_responder,no,no,maintain,,0,unstable_responder
+69,33,female,East Asian,London,Europe/London,iOS,Xiaomi Band,11,moderate,high,combined,2024-01-01,9.7,-1.3,11.82,non_responder,no,no,adjust,,0,non_responder
+70,25,female,European,London,Europe/London,Android,Apple Watch,16,moderately_severe,medium,combined,2024-01-01,10.2,-5.8,36.25,partial_responder,no,no,adjust,,0,partial_responder
+71,40,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Xiaomi Band,14,moderate,low,combined,2024-01-01,1.1,-12.9,92.14,responder,yes,no,maintain,8.0,1,delayed_responder
+72,46,male,Middle Eastern/North African,London,Europe/London,iOS,Fitbit,14,moderate,medium,antidepressant,2024-01-01,8.0,-6.0,42.86,partial_responder,no,no,adjust,,0,unstable_responder
+73,47,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,15,moderately_severe,medium,combined,2024-01-01,2.5,-12.5,83.33,responder,yes,no,maintain,6.0,1,delayed_responder
+74,62,female,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,19,moderately_severe,high,antidepressant,2024-01-01,13.7,-5.3,27.89,partial_responder,no,no,maintain,,0,partial_responder
+75,30,male,European,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,medium,antidepressant,2024-01-01,9.3,-7.7,45.29,partial_responder,no,no,adjust,,0,partial_responder
+76,49,male,Mixed/Other,Accra,Africa/Accra,Android,Xiaomi Band,15,moderately_severe,high,combined,2024-01-01,6.8,-8.2,54.67,responder,no,no,maintain,12.0,1,non_responder
+77,19,male,European,Berlin,Europe/Berlin,Android,Samsung Watch,11,moderate,medium,therapy,2024-01-01,2.8,-8.2,74.55,responder,yes,no,maintain,12.0,1,non_responder
+78,36,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Apple Watch,13,moderate,high,therapy,2024-01-01,7.4,-5.6,43.08,partial_responder,no,no,maintain,,0,partial_responder
+79,24,female,South Asian,Mumbai,Asia/Kolkata,iOS,Apple Watch,17,moderately_severe,medium,combined,2024-01-01,6.0,-11.0,64.71,responder,no,no,maintain,10.0,1,non_responder
+80,36,male,African,Nairobi,Africa/Nairobi,Android,Fitbit,12,moderate,medium,antidepressant,2024-01-01,9.0,-3.0,25.0,partial_responder,no,no,maintain,,0,partial_responder
+81,63,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Apple Watch,14,moderate,medium,combined,2024-01-01,9.7,-4.3,30.71,partial_responder,no,no,adjust,,0,partial_responder
+82,41,female,African,Nairobi,Africa/Nairobi,Android,Samsung Watch,22,severe,medium,antidepressant,2024-01-01,14.9,-7.1,32.27,partial_responder,no,no,adjust,,0,unstable_responder
+83,63,female,African,London,Europe/London,iOS,Xiaomi Band,14,moderate,low,combined,2024-01-01,6.9,-7.1,50.71,responder,no,no,maintain,12.0,1,non_responder
+84,56,female,European,Nairobi,Africa/Nairobi,Android,Apple Watch,20,severe,medium,combined,2024-01-01,8.3,-11.7,58.5,responder,no,no,maintain,10.0,1,non_responder
+85,39,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,8,mild,high,therapy,2024-01-01,1.7,-6.3,78.75,responder,yes,no,maintain,10.0,1,non_responder
+86,19,male,African,Berlin,Europe/Berlin,Android,Garmin,19,moderately_severe,low,therapy,2024-01-01,11.5,-7.5,39.47,partial_responder,no,no,maintain,,0,unstable_responder
+87,43,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,20,severe,medium,combined,2024-01-01,10.2,-9.8,49.0,partial_responder,no,no,maintain,,0,partial_responder
+88,61,female,East Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,16,moderately_severe,low,therapy,2024-01-01,2.5,-13.5,84.38,responder,yes,no,maintain,8.0,1,delayed_responder
+89,38,female,South Asian,London,Europe/London,Android,Apple Watch,11,moderate,low,combined,2024-01-01,7.0,-4.0,36.36,partial_responder,no,no,maintain,,0,partial_responder
+90,58,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,13,moderate,medium,therapy,2024-01-01,10.1,-2.9,22.31,non_responder,no,no,switch,,0,non_responder
+91,61,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,17,moderately_severe,high,antidepressant,2024-01-01,10.5,-6.5,38.24,partial_responder,no,no,adjust,,0,partial_responder
+92,33,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,16,moderately_severe,low,combined,2024-01-01,3.0,-13.0,81.25,responder,yes,no,maintain,8.0,1,delayed_responder
+93,41,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,13,moderate,low,combined,2024-01-01,1.8,-11.2,86.15,responder,yes,no,maintain,8.0,1,delayed_responder
+94,52,male,East Asian,Nairobi,Africa/Nairobi,Android,Garmin,14,moderate,high,antidepressant,2024-01-01,3.0,-11.0,78.57,responder,yes,no,maintain,10.0,1,non_responder
+95,49,female,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Apple Watch,18,moderately_severe,medium,therapy,2024-01-01,7.6,-10.4,57.78,responder,no,no,maintain,10.0,1,non_responder
+96,55,female,European,Berlin,Europe/Berlin,iOS,Apple Watch,14,moderate,medium,therapy,2024-01-01,7.7,-6.3,45.0,partial_responder,no,no,maintain,,0,partial_responder
+97,46,female,South Asian,Nairobi,Africa/Nairobi,Android,Fitbit,15,moderately_severe,low,antidepressant,2024-01-01,8.4,-6.6,44.0,partial_responder,no,no,adjust,,0,partial_responder
+98,64,male,Middle Eastern/North African,Berlin,Europe/Berlin,iOS,Apple Watch,25,severe,medium,therapy,2024-01-01,12.0,-13.0,52.0,responder,no,no,maintain,12.0,1,non_responder
+99,33,female,Mixed/Other,Mumbai,Asia/Kolkata,Android,Samsung Watch,9,mild,medium,combined,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+100,32,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,4.9,-12.1,71.18,responder,yes,no,maintain,6.0,1,delayed_responder
+101,37,male,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,8,mild,low,therapy,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+102,44,female,European,London,Europe/London,Android,Fitbit,13,moderate,low,antidepressant,2024-01-01,5.6,-7.4,56.92,responder,no,no,maintain,12.0,1,non_responder
+103,37,male,South Asian,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,15.0,-2.0,11.76,non_responder,no,no,adjust,,0,non_responder
+104,45,female,European,London,Europe/London,Android,Fitbit,13,moderate,medium,antidepressant,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+105,20,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,17,moderately_severe,low,combined,2024-01-01,6.8,-10.2,60.0,responder,no,no,maintain,10.0,1,non_responder
+106,19,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,12,moderate,medium,antidepressant,2024-01-01,7.8,-4.2,35.0,partial_responder,no,no,maintain,,0,partial_responder
+107,34,female,European,London,Europe/London,iOS,Apple Watch,12,moderate,low,antidepressant,2024-01-01,0.0,-12.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+108,44,female,South Asian,Berlin,Europe/Berlin,Android,Garmin,16,moderately_severe,medium,combined,2024-01-01,2.4,-13.6,85.0,responder,yes,no,maintain,10.0,1,non_responder
+109,64,male,Mixed/Other,London,Europe/London,Android,Apple Watch,9,mild,medium,antidepressant,2024-01-01,0.1,-8.9,98.89,responder,yes,no,maintain,6.0,1,delayed_responder
+110,18,female,Latino/Hispanic,Nairobi,Africa/Nairobi,iOS,Fitbit,18,moderately_severe,low,antidepressant,2024-01-01,13.5,-4.5,25.0,partial_responder,no,no,maintain,,0,partial_responder
+111,23,male,South Asian,Nairobi,Africa/Nairobi,Android,Apple Watch,12,moderate,medium,therapy,2024-01-01,1.4,-10.6,88.33,responder,yes,no,maintain,8.0,1,delayed_responder
+112,50,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,8,mild,low,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+113,35,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,16,moderately_severe,high,combined,2024-01-01,4.8,-11.2,70.0,responder,yes,no,maintain,8.0,1,delayed_responder
+114,60,female,East Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,18,moderately_severe,medium,antidepressant,2024-01-01,7.3,-10.7,59.44,responder,no,no,maintain,10.0,1,non_responder
+115,55,female,Latino/Hispanic,Berlin,Europe/Berlin,Android,Samsung Watch,26,severe,high,therapy,2024-01-01,20.1,-5.9,22.69,non_responder,no,no,adjust,,0,non_responder
+116,37,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,18,moderately_severe,low,therapy,2024-01-01,7.8,-10.2,56.67,responder,no,no,maintain,8.0,1,delayed_responder
+117,48,female,African,Mumbai,Asia/Kolkata,Android,Fitbit,16,moderately_severe,low,combined,2024-01-01,5.0,-11.0,68.75,responder,no,no,maintain,6.0,1,delayed_responder
+118,46,female,Middle Eastern/North African,Accra,Africa/Accra,Android,Samsung Watch,18,moderately_severe,low,antidepressant,2024-01-01,4.8,-13.2,73.33,responder,yes,no,maintain,10.0,1,non_responder
+119,26,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,20,severe,medium,combined,2024-01-01,16.7,-3.3,16.5,non_responder,no,no,adjust,,0,non_responder
+120,22,female,South Asian,London,Europe/London,Android,Garmin,12,moderate,medium,antidepressant,2024-01-01,5.9,-6.1,50.83,responder,no,no,maintain,12.0,1,non_responder
+121,26,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,15,moderately_severe,low,combined,2024-01-01,3.3,-11.7,78.0,responder,yes,no,maintain,6.0,1,delayed_responder
+122,63,male,South Asian,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,13,moderate,low,antidepressant,2024-01-01,1.1,-11.9,91.54,responder,yes,no,maintain,6.0,1,delayed_responder
+123,59,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Samsung Watch,12,moderate,low,combined,2024-01-01,8.2,-3.8,31.67,partial_responder,no,no,adjust,,0,partial_responder
+124,39,male,African,London,Europe/London,iOS,Apple Watch,10,moderate,low,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+125,42,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,25,severe,medium,combined,2024-01-01,18.3,-6.7,26.8,partial_responder,no,no,maintain,,0,partial_responder
+126,55,male,European,London,Europe/London,Android,Apple Watch,18,moderately_severe,high,combined,2024-01-01,12.1,-5.9,32.78,partial_responder,no,no,maintain,,0,partial_responder
+127,42,female,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,18,moderately_severe,low,therapy,2024-01-01,13.3,-4.7,26.11,partial_responder,no,no,maintain,,0,partial_responder
+128,37,female,South Asian,Berlin,Europe/Berlin,Android,Apple Watch,11,moderate,low,antidepressant,2024-01-01,8.1,-2.9,26.36,partial_responder,no,no,adjust,,0,partial_responder
+129,62,male,Latino/Hispanic,London,Europe/London,iOS,Fitbit,14,moderate,medium,combined,2024-01-01,11.8,-2.2,15.71,non_responder,no,no,adjust,,0,non_responder
+130,61,female,European,Berlin,Europe/Berlin,iOS,Fitbit,12,moderate,medium,combined,2024-01-01,2.7,-9.3,77.5,responder,yes,no,maintain,8.0,1,delayed_responder
+131,36,male,European,Mumbai,Asia/Kolkata,Android,Fitbit,21,severe,low,therapy,2024-01-01,10.3,-10.7,50.95,responder,no,no,maintain,12.0,1,non_responder
+132,62,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,13,moderate,high,therapy,2024-01-01,11.3,-1.7,13.08,non_responder,no,no,adjust,,0,non_responder
+133,21,male,European,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Garmin,13,moderate,low,antidepressant,2024-01-01,1.7,-11.3,86.92,responder,yes,no,maintain,8.0,1,delayed_responder
+134,18,female,African,London,Europe/London,iOS,Samsung Watch,19,moderately_severe,medium,combined,2024-01-01,8.0,-11.0,57.89,responder,no,no,maintain,12.0,1,non_responder
+135,32,female,African,Accra,Africa/Accra,Android,Samsung Watch,13,moderate,low,combined,2024-01-01,8.6,-4.4,33.85,partial_responder,no,no,maintain,,0,partial_responder
+136,56,male,East Asian,Accra,Africa/Accra,Android,Fitbit,13,moderate,low,antidepressant,2024-01-01,4.4,-8.6,66.15,responder,yes,no,maintain,12.0,1,non_responder
+137,28,male,European,Berlin,Europe/Berlin,Android,Fitbit,13,moderate,high,combined,2024-01-01,1.8,-11.2,86.15,responder,yes,no,maintain,8.0,1,delayed_responder
+138,44,male,South Asian,London,Europe/London,iOS,Garmin,13,moderate,medium,combined,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+139,56,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Samsung Watch,20,severe,medium,combined,2024-01-01,6.0,-14.0,70.0,responder,no,no,maintain,6.0,1,delayed_responder
+140,33,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Fitbit,15,moderately_severe,low,antidepressant,2024-01-01,7.0,-8.0,53.33,responder,no,no,maintain,12.0,1,non_responder
+141,25,female,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Fitbit,13,moderate,medium,therapy,2024-01-01,0.3,-12.7,97.69,responder,yes,no,maintain,8.0,1,delayed_responder
+142,41,male,East Asian,Berlin,Europe/Berlin,iOS,Fitbit,9,mild,medium,antidepressant,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+143,38,male,East Asian,Berlin,Europe/Berlin,Android,Fitbit,12,moderate,medium,antidepressant,2024-01-01,7.7,-4.3,35.83,partial_responder,no,no,adjust,,0,partial_responder
+144,42,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,20,severe,medium,therapy,2024-01-01,11.5,-8.5,42.5,partial_responder,no,no,adjust,,0,partial_responder
+145,42,male,Middle Eastern/North African,London,Europe/London,Android,Apple Watch,11,moderate,medium,antidepressant,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,10.0,1,non_responder
+146,65,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,high,antidepressant,2024-01-01,3.2,-10.8,77.14,responder,yes,no,maintain,8.0,1,delayed_responder
+147,26,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Fitbit,20,severe,low,antidepressant,2024-01-01,8.6,-11.4,57.0,responder,no,no,maintain,8.0,0,delayed_responder
+148,63,female,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Garmin,18,moderately_severe,low,therapy,2024-01-01,9.4,-8.6,47.78,partial_responder,no,no,maintain,,0,partial_responder
+149,33,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Samsung Watch,13,moderate,medium,antidepressant,2024-01-01,8.3,-4.7,36.15,partial_responder,no,no,adjust,,0,partial_responder
+150,35,male,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Xiaomi Band,15,moderately_severe,low,therapy,2024-01-01,10.7,-4.3,28.67,partial_responder,no,no,maintain,,0,partial_responder
+151,44,male,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,18,moderately_severe,medium,combined,2024-01-01,15.4,-2.6,14.44,non_responder,no,no,adjust,,0,non_responder
+152,28,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,20,severe,low,therapy,2024-01-01,12.2,-7.8,39.0,partial_responder,no,no,adjust,,0,partial_responder
+153,19,female,Mixed/Other,London,Europe/London,Android,Garmin,20,severe,high,combined,2024-01-01,9.8,-10.2,51.0,responder,no,no,maintain,12.0,1,non_responder
+154,51,male,European,Mumbai,Asia/Kolkata,Android,Garmin,13,moderate,medium,therapy,2024-01-01,2.5,-10.5,80.77,responder,yes,no,maintain,6.0,1,delayed_responder
+155,34,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,21,severe,medium,combined,2024-01-01,17.9,-3.1,14.76,non_responder,no,no,adjust,,0,non_responder
+156,18,male,South Asian,Accra,Africa/Accra,Android,Garmin,17,moderately_severe,low,combined,2024-01-01,10.4,-6.6,38.82,partial_responder,no,no,adjust,,0,partial_responder
+157,58,female,Mixed/Other,Berlin,Europe/Berlin,Android,Apple Watch,13,moderate,high,combined,2024-01-01,10.8,-2.2,16.92,non_responder,no,no,adjust,,0,non_responder
+158,64,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+159,61,female,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,high,combined,2024-01-01,16.3,-1.7,9.44,non_responder,no,no,switch,,0,non_responder
+160,59,female,European,London,Europe/London,iOS,Apple Watch,23,severe,high,antidepressant,2024-01-01,11.7,-11.3,49.13,partial_responder,no,no,maintain,,0,partial_responder
+161,48,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,20,severe,medium,combined,2024-01-01,10.7,-9.3,46.5,partial_responder,no,no,adjust,,0,partial_responder
+162,44,male,European,Berlin,Europe/Berlin,Android,Xiaomi Band,12,moderate,low,therapy,2024-01-01,4.0,-8.0,66.67,responder,yes,no,maintain,8.0,1,delayed_responder
+163,53,female,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Apple Watch,14,moderate,medium,combined,2024-01-01,1.1,-12.9,92.14,responder,yes,no,maintain,8.0,1,delayed_responder
+164,54,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,9,mild,high,antidepressant,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+165,41,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,11,moderate,high,combined,2024-01-01,0.2,-10.8,98.18,responder,yes,no,maintain,6.0,1,delayed_responder
+166,35,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,17,moderately_severe,low,combined,2024-01-01,6.0,-11.0,64.71,responder,no,no,maintain,6.0,1,delayed_responder
+167,54,female,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,13,moderate,medium,combined,2024-01-01,2.1,-10.9,83.85,responder,yes,no,maintain,6.0,1,delayed_responder
+168,40,male,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,medium,antidepressant,2024-01-01,4.4,-9.6,68.57,responder,yes,no,maintain,10.0,1,non_responder
+169,28,male,East Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,20,severe,high,combined,2024-01-01,13.7,-6.3,31.5,partial_responder,no,no,maintain,,0,unstable_responder
+170,30,male,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,21,severe,medium,combined,2024-01-01,11.3,-9.7,46.19,partial_responder,no,no,adjust,,0,partial_responder
+171,29,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Apple Watch,17,moderately_severe,high,therapy,2024-01-01,6.7,-10.3,60.59,responder,no,no,maintain,12.0,1,non_responder
+172,26,male,South Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,12,moderate,medium,combined,2024-01-01,7.1,-4.9,40.83,partial_responder,no,no,maintain,,0,partial_responder
+173,35,male,European,Berlin,Europe/Berlin,Android,Fitbit,20,severe,high,antidepressant,2024-01-01,13.6,-6.4,32.0,partial_responder,no,no,adjust,,0,partial_responder
+174,25,male,European,Nairobi,Africa/Nairobi,Android,Fitbit,12,moderate,medium,combined,2024-01-01,0.0,-12.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+175,46,female,European,Accra,Africa/Accra,iOS,Samsung Watch,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+176,38,female,East Asian,Berlin,Europe/Berlin,iOS,Apple Watch,10,moderate,medium,therapy,2024-01-01,2.8,-7.2,72.0,responder,yes,no,maintain,10.0,1,non_responder
+177,29,male,Mixed/Other,Nairobi,Africa/Nairobi,Android,Garmin,13,moderate,medium,therapy,2024-01-01,8.3,-4.7,36.15,partial_responder,no,no,adjust,,0,unstable_responder
+178,61,female,Mixed/Other,Mumbai,Asia/Kolkata,Android,Fitbit,20,severe,medium,combined,2024-01-01,8.0,-12.0,60.0,responder,no,no,maintain,12.0,1,non_responder
+179,52,female,Middle Eastern/North African,Accra,Africa/Accra,Android,Samsung Watch,15,moderately_severe,high,combined,2024-01-01,10.0,-5.0,33.33,partial_responder,no,no,adjust,,0,partial_responder
+180,49,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Fitbit,14,moderate,medium,antidepressant,2024-01-01,10.8,-3.2,22.86,non_responder,no,no,adjust,,0,non_responder
+181,34,female,European,Berlin,Europe/Berlin,Android,Apple Watch,15,moderately_severe,medium,therapy,2024-01-01,8.5,-6.5,43.33,partial_responder,no,no,maintain,,0,partial_responder
+182,32,female,Middle Eastern/North African,Accra,Africa/Accra,Android,Fitbit,13,moderate,medium,combined,2024-01-01,2.5,-10.5,80.77,responder,yes,no,maintain,8.0,1,delayed_responder
+183,60,female,African,Accra,Africa/Accra,Android,Fitbit,12,moderate,low,therapy,2024-01-01,1.6,-10.4,86.67,responder,yes,no,maintain,6.0,1,delayed_responder
+184,31,female,Mixed/Other,Mumbai,Asia/Kolkata,Android,Garmin,8,mild,medium,antidepressant,2024-01-01,2.3,-5.7,71.25,responder,yes,no,maintain,4.0,1,early_responder
+185,57,male,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,15,moderately_severe,high,therapy,2024-01-01,4.4,-10.6,70.67,responder,yes,no,maintain,8.0,1,delayed_responder
+186,40,female,East Asian,London,Europe/London,iOS,Apple Watch,12,moderate,medium,combined,2024-01-01,0.7,-11.3,94.17,responder,yes,no,maintain,8.0,1,delayed_responder
+187,63,female,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Samsung Watch,17,moderately_severe,high,therapy,2024-01-01,15.5,-1.5,8.82,non_responder,no,no,switch,,0,non_responder
+188,46,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,14,moderate,low,combined,2024-01-01,9.8,-4.2,30.0,partial_responder,no,no,adjust,,0,unstable_responder
+189,48,female,European,Accra,Africa/Accra,Android,Xiaomi Band,21,severe,medium,antidepressant,2024-01-01,13.7,-7.3,34.76,partial_responder,no,no,adjust,,0,partial_responder
+190,62,female,African,Accra,Africa/Accra,iOS,Garmin,15,moderately_severe,high,combined,2024-01-01,9.1,-5.9,39.33,partial_responder,no,no,adjust,,0,unstable_responder
+191,65,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,18,moderately_severe,low,combined,2024-01-01,12.2,-5.8,32.22,partial_responder,no,no,maintain,,0,partial_responder
+192,61,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,14,moderate,high,therapy,2024-01-01,11.4,-2.6,18.57,non_responder,no,no,switch,,0,non_responder
+193,44,female,African,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,9.9,-7.1,41.76,partial_responder,no,no,maintain,,0,partial_responder
+194,63,female,European,Nairobi,Africa/Nairobi,Android,Apple Watch,19,moderately_severe,low,antidepressant,2024-01-01,13.5,-5.5,28.95,partial_responder,no,no,maintain,,0,unstable_responder
+195,20,female,African,Nairobi,Africa/Nairobi,Android,Fitbit,13,moderate,medium,combined,2024-01-01,1.0,-12.0,92.31,responder,yes,no,maintain,10.0,1,non_responder
+196,46,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,iOS,Samsung Watch,21,severe,low,combined,2024-01-01,8.0,-13.0,61.9,responder,no,no,maintain,8.0,1,delayed_responder
+197,34,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,medium,combined,2024-01-01,1.9,-12.1,86.43,responder,yes,no,maintain,10.0,1,non_responder
+198,59,female,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,21,severe,low,antidepressant,2024-01-01,15.4,-5.6,26.67,partial_responder,no,no,maintain,,0,partial_responder
+199,22,female,Middle Eastern/North African,Accra,Africa/Accra,Android,Garmin,13,moderate,medium,combined,2024-01-01,4.4,-8.6,66.15,responder,yes,no,maintain,12.0,1,non_responder
+200,42,female,European,London,Europe/London,Android,Fitbit,20,severe,low,combined,2024-01-01,10.6,-9.4,47.0,partial_responder,no,no,maintain,,0,partial_responder
+201,35,male,African,Accra,Africa/Accra,Android,Samsung Watch,18,moderately_severe,high,combined,2024-01-01,4.7,-13.3,73.89,responder,yes,no,maintain,10.0,1,non_responder
+202,48,female,South Asian,London,Europe/London,iOS,Xiaomi Band,12,moderate,low,antidepressant,2024-01-01,5.1,-6.9,57.5,responder,no,no,maintain,12.0,1,non_responder
+203,49,female,European,Berlin,Europe/Berlin,Android,Fitbit,15,moderately_severe,medium,combined,2024-01-01,0.6,-14.4,96.0,responder,yes,no,maintain,6.0,1,delayed_responder
+204,22,female,Middle Eastern/North African,London,Europe/London,iOS,Fitbit,18,moderately_severe,medium,antidepressant,2024-01-01,10.0,-8.0,44.44,partial_responder,no,no,maintain,,0,partial_responder
+205,35,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,11,moderate,low,antidepressant,2024-01-01,5.5,-5.5,50.0,responder,no,no,maintain,8.0,1,delayed_responder
+206,30,male,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,19,moderately_severe,high,antidepressant,2024-01-01,19.5,0.5,-2.63,non_responder,no,no,adjust,,0,non_responder
+207,33,male,East Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,9,mild,medium,antidepressant,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+208,63,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,9,mild,medium,antidepressant,2024-01-01,4.9,-4.1,45.56,partial_responder,yes,no,maintain,,0,unstable_responder
+209,43,male,South Asian,London,Europe/London,Android,Fitbit,18,moderately_severe,high,therapy,2024-01-01,17.3,-0.7,3.89,non_responder,no,no,switch,,0,non_responder
+210,58,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Apple Watch,16,moderately_severe,high,combined,2024-01-01,10.1,-5.9,36.88,partial_responder,no,no,maintain,,0,partial_responder
+211,50,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Apple Watch,14,moderate,medium,combined,2024-01-01,11.8,-2.2,15.71,non_responder,no,no,adjust,,0,non_responder
+212,63,male,East Asian,London,Europe/London,iOS,Xiaomi Band,11,moderate,medium,combined,2024-01-01,2.3,-8.7,79.09,responder,yes,no,maintain,6.0,1,delayed_responder
+213,23,male,African,Nairobi,Africa/Nairobi,Android,Fitbit,12,moderate,low,therapy,2024-01-01,1.0,-11.0,91.67,responder,yes,no,maintain,8.0,1,delayed_responder
+214,60,female,Latino/Hispanic,Accra,Africa/Accra,iOS,Apple Watch,10,moderate,medium,antidepressant,2024-01-01,3.3,-6.7,67.0,responder,yes,no,maintain,12.0,1,non_responder
+215,20,female,South Asian,Mumbai,Asia/Kolkata,Android,Apple Watch,16,moderately_severe,high,antidepressant,2024-01-01,13.8,-2.2,13.75,non_responder,no,no,adjust,,0,non_responder
+216,52,female,African,Accra,Africa/Accra,Android,Fitbit,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+217,64,male,Mixed/Other,London,Europe/London,iOS,Xiaomi Band,17,moderately_severe,low,combined,2024-01-01,13.6,-3.4,20.0,non_responder,no,no,switch,,0,non_responder
+218,54,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,medium,antidepressant,2024-01-01,9.8,-5.2,34.67,partial_responder,no,no,maintain,,0,partial_responder
+219,64,female,East Asian,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,medium,combined,2024-01-01,4.5,-12.5,73.53,responder,yes,no,maintain,10.0,1,non_responder
+220,47,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,12,moderate,medium,antidepressant,2024-01-01,5.9,-6.1,50.83,responder,no,no,maintain,12.0,1,non_responder
+221,43,female,African,London,Europe/London,iOS,Samsung Watch,17,moderately_severe,low,combined,2024-01-01,6.4,-10.6,62.35,responder,no,no,maintain,12.0,1,non_responder
+222,45,male,South Asian,Accra,Africa/Accra,Android,Xiaomi Band,13,moderate,high,combined,2024-01-01,6.1,-6.9,53.08,responder,no,no,maintain,12.0,1,non_responder
+223,25,male,African,Mumbai,Asia/Kolkata,Android,Fitbit,17,moderately_severe,medium,combined,2024-01-01,7.1,-9.9,58.24,responder,no,no,maintain,12.0,1,non_responder
+224,44,male,South Asian,Accra,Africa/Accra,Android,Fitbit,18,moderately_severe,high,combined,2024-01-01,13.7,-4.3,23.89,non_responder,no,no,switch,,0,non_responder
+225,27,female,South Asian,Berlin,Europe/Berlin,iOS,Garmin,15,moderately_severe,low,antidepressant,2024-01-01,5.4,-9.6,64.0,responder,no,no,maintain,8.0,1,delayed_responder
+226,34,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,17,moderately_severe,low,combined,2024-01-01,5.3,-11.7,68.82,responder,no,no,maintain,6.0,1,delayed_responder
+227,48,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Garmin,17,moderately_severe,low,combined,2024-01-01,5.1,-11.9,70.0,responder,no,no,maintain,10.0,1,non_responder
+228,22,male,South Asian,Berlin,Europe/Berlin,iOS,Apple Watch,14,moderate,medium,therapy,2024-01-01,1.9,-12.1,86.43,responder,yes,no,maintain,6.0,1,delayed_responder
+229,20,male,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Fitbit,19,moderately_severe,high,therapy,2024-01-01,16.3,-2.7,14.21,non_responder,no,no,adjust,,0,non_responder
+230,19,male,European,London,Europe/London,Android,Fitbit,17,moderately_severe,high,combined,2024-01-01,10.1,-6.9,40.59,partial_responder,no,no,maintain,,0,partial_responder
+231,64,female,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Fitbit,11,moderate,high,antidepressant,2024-01-01,9.2,-1.8,16.36,non_responder,no,no,switch,,0,non_responder
+232,42,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,low,combined,2024-01-01,0.0,-14.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+233,21,male,Mixed/Other,London,Europe/London,iOS,Fitbit,12,moderate,medium,therapy,2024-01-01,6.9,-5.1,42.5,partial_responder,no,no,maintain,,0,partial_responder
+234,27,male,South Asian,London,Europe/London,iOS,Fitbit,17,moderately_severe,high,therapy,2024-01-01,16.6,-0.4,2.35,non_responder,no,no,adjust,,0,non_responder
+235,27,female,African,London,Europe/London,iOS,Apple Watch,12,moderate,medium,combined,2024-01-01,6.0,-6.0,50.0,responder,no,no,maintain,12.0,1,non_responder
+236,36,female,East Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,10,moderate,medium,antidepressant,2024-01-01,8.1,-1.9,19.0,non_responder,no,no,adjust,,0,non_responder
+237,30,male,East Asian,London,Europe/London,iOS,Fitbit,17,moderately_severe,low,combined,2024-01-01,13.2,-3.8,22.35,non_responder,no,no,switch,,0,non_responder
+238,46,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Samsung Watch,14,moderate,medium,combined,2024-01-01,2.1,-11.9,85.0,responder,yes,no,maintain,4.0,0,early_responder
+239,24,female,South Asian,Berlin,Europe/Berlin,iOS,Apple Watch,20,severe,high,combined,2024-01-01,13.9,-6.1,30.5,partial_responder,no,no,maintain,,0,unstable_responder
+240,26,female,European,Accra,Africa/Accra,Android,Garmin,20,severe,medium,antidepressant,2024-01-01,14.2,-5.8,29.0,partial_responder,no,no,maintain,,0,partial_responder
+241,18,female,African,Berlin,Europe/Berlin,iOS,Apple Watch,14,moderate,medium,combined,2024-01-01,8.7,-5.3,37.86,partial_responder,no,no,adjust,,0,partial_responder
+242,51,male,African,London,Europe/London,iOS,Fitbit,15,moderately_severe,high,therapy,2024-01-01,13.4,-1.6,10.67,non_responder,no,no,switch,,0,non_responder
+243,61,male,European,Berlin,Europe/Berlin,Android,Xiaomi Band,13,moderate,low,antidepressant,2024-01-01,6.5,-6.5,50.0,responder,no,no,maintain,12.0,1,non_responder
+244,65,male,South Asian,London,Europe/London,iOS,Samsung Watch,14,moderate,medium,therapy,2024-01-01,7.1,-6.9,49.29,partial_responder,no,no,adjust,,0,partial_responder
+245,48,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,19,moderately_severe,medium,combined,2024-01-01,7.7,-11.3,59.47,responder,no,no,maintain,10.0,1,non_responder
+246,29,female,East Asian,Berlin,Europe/Berlin,iOS,Fitbit,8,mild,medium,antidepressant,2024-01-01,2.7,-5.3,66.25,responder,yes,no,maintain,6.0,0,non_responder
+247,41,male,African,Nairobi,Africa/Nairobi,Android,Fitbit,13,moderate,medium,combined,2024-01-01,1.6,-11.4,87.69,responder,yes,no,maintain,6.0,1,delayed_responder
+248,40,male,Middle Eastern/North African,London,Europe/London,iOS,Apple Watch,12,moderate,medium,antidepressant,2024-01-01,0.9,-11.1,92.5,responder,yes,no,maintain,8.0,1,delayed_responder
+249,28,female,Mixed/Other,Berlin,Europe/Berlin,iOS,Garmin,21,severe,medium,combined,2024-01-01,10.2,-10.8,51.43,responder,no,no,maintain,10.0,1,non_responder
+250,49,female,East Asian,Accra,Africa/Accra,iOS,Apple Watch,12,moderate,high,antidepressant,2024-01-01,1.4,-10.6,88.33,responder,yes,no,maintain,6.0,1,delayed_responder
+251,37,male,East Asian,Berlin,Europe/Berlin,Android,Apple Watch,15,moderately_severe,low,antidepressant,2024-01-01,11.7,-3.3,22.0,non_responder,no,no,switch,,0,non_responder
+252,65,female,Latino/Hispanic,London,Europe/London,iOS,Apple Watch,19,moderately_severe,low,therapy,2024-01-01,7.3,-11.7,61.58,responder,no,no,maintain,10.0,1,non_responder
+253,18,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,medium,therapy,2024-01-01,11.3,-6.7,37.22,partial_responder,no,no,maintain,,0,partial_responder
+254,64,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Apple Watch,18,moderately_severe,medium,combined,2024-01-01,10.6,-7.4,41.11,partial_responder,no,no,maintain,,0,unstable_responder
+255,42,female,East Asian,Berlin,Europe/Berlin,iOS,Garmin,19,moderately_severe,medium,antidepressant,2024-01-01,5.4,-13.6,71.58,responder,no,no,maintain,12.0,1,non_responder
+256,47,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,16,moderately_severe,low,antidepressant,2024-01-01,12.6,-3.4,21.25,non_responder,no,no,switch,,0,non_responder
+257,45,male,African,Berlin,Europe/Berlin,Android,Fitbit,15,moderately_severe,medium,combined,2024-01-01,3.9,-11.1,74.0,responder,yes,no,maintain,6.0,1,delayed_responder
+258,39,female,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,16,moderately_severe,medium,therapy,2024-01-01,2.2,-13.8,86.25,responder,yes,no,maintain,6.0,1,delayed_responder
+259,45,female,Latino/Hispanic,London,Europe/London,iOS,Xiaomi Band,15,moderately_severe,medium,antidepressant,2024-01-01,6.9,-8.1,54.0,responder,no,no,maintain,12.0,1,non_responder
+260,25,male,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,12,moderate,medium,antidepressant,2024-01-01,6.0,-6.0,50.0,responder,no,no,maintain,12.0,1,unstable_responder
+261,37,female,Latino/Hispanic,Accra,Africa/Accra,Android,Garmin,19,moderately_severe,high,antidepressant,2024-01-01,12.8,-6.2,32.63,partial_responder,no,no,adjust,,0,partial_responder
+262,29,male,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,low,therapy,2024-01-01,7.5,-6.5,46.43,partial_responder,no,no,adjust,,0,partial_responder
+263,54,male,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,15,moderately_severe,medium,antidepressant,2024-01-01,6.4,-8.6,57.33,responder,no,no,maintain,12.0,1,non_responder
+264,23,female,South Asian,London,Europe/London,iOS,Apple Watch,11,moderate,low,antidepressant,2024-01-01,6.2,-4.8,43.64,partial_responder,no,no,maintain,,0,partial_responder
+265,27,female,East Asian,Accra,Africa/Accra,Android,Garmin,16,moderately_severe,medium,combined,2024-01-01,5.4,-10.6,66.25,responder,no,no,maintain,10.0,1,non_responder
+266,40,male,European,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Xiaomi Band,14,moderate,high,therapy,2024-01-01,4.9,-9.1,65.0,responder,yes,no,maintain,10.0,1,non_responder
+267,25,female,European,Mumbai,Asia/Kolkata,Android,Samsung Watch,11,moderate,low,combined,2024-01-01,4.9,-6.1,55.45,responder,yes,no,maintain,8.0,0,delayed_responder
+268,48,female,European,Berlin,Europe/Berlin,iOS,Samsung Watch,21,severe,medium,antidepressant,2024-01-01,8.8,-12.2,58.1,responder,no,no,maintain,12.0,1,non_responder
+269,65,female,Mixed/Other,Berlin,Europe/Berlin,iOS,Samsung Watch,18,moderately_severe,low,combined,2024-01-01,10.5,-7.5,41.67,partial_responder,no,no,adjust,,0,unstable_responder
+270,43,female,European,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,17,moderately_severe,medium,therapy,2024-01-01,7.7,-9.3,54.71,responder,no,no,maintain,12.0,1,non_responder
+271,25,male,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,18,moderately_severe,low,combined,2024-01-01,9.0,-9.0,50.0,responder,no,no,maintain,12.0,1,non_responder
+272,20,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,9,mild,low,therapy,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+273,54,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,15,moderately_severe,low,combined,2024-01-01,3.7,-11.3,75.33,responder,yes,no,maintain,8.0,1,delayed_responder
+274,53,male,African,Accra,Africa/Accra,Android,Samsung Watch,10,moderate,medium,combined,2024-01-01,6.6,-3.4,34.0,partial_responder,no,no,maintain,,0,unstable_responder
+275,60,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,11.6,-5.4,31.76,partial_responder,no,no,adjust,,0,partial_responder
+276,53,female,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Samsung Watch,10,moderate,medium,combined,2024-01-01,2.7,-7.3,73.0,responder,yes,no,maintain,12.0,1,non_responder
+277,21,female,European,London,Europe/London,Android,Apple Watch,13,moderate,high,therapy,2024-01-01,5.4,-7.6,58.46,responder,no,no,maintain,12.0,1,non_responder
+278,29,male,South Asian,London,Europe/London,Android,Xiaomi Band,14,moderate,medium,combined,2024-01-01,6.9,-7.1,50.71,responder,no,no,maintain,12.0,1,non_responder
+279,25,female,South Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,16,moderately_severe,medium,combined,2024-01-01,7.3,-8.7,54.37,responder,no,no,maintain,12.0,1,unstable_responder
+280,21,male,Mixed/Other,Nairobi,Africa/Nairobi,Android,Xiaomi Band,9,mild,low,combined,2024-01-01,1.2,-7.8,86.67,responder,yes,no,maintain,2.0,1,early_responder
+281,38,male,African,London,Europe/London,Android,Fitbit,21,severe,medium,combined,2024-01-01,8.0,-13.0,61.9,responder,no,no,maintain,10.0,1,non_responder
+282,46,female,East Asian,London,Europe/London,Android,Apple Watch,16,moderately_severe,medium,therapy,2024-01-01,5.2,-10.8,67.5,responder,no,no,maintain,8.0,1,delayed_responder
+283,63,female,East Asian,London,Europe/London,Android,Garmin,16,moderately_severe,medium,antidepressant,2024-01-01,8.7,-7.3,45.63,partial_responder,no,no,adjust,,0,unstable_responder
+284,63,male,European,Accra,Africa/Accra,Android,Garmin,16,moderately_severe,low,combined,2024-01-01,5.2,-10.8,67.5,responder,no,no,maintain,6.0,1,delayed_responder
+285,21,male,African,Mumbai,Asia/Kolkata,iOS,Fitbit,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+286,56,female,European,Berlin,Europe/Berlin,iOS,Apple Watch,13,moderate,medium,antidepressant,2024-01-01,3.4,-9.6,73.85,responder,yes,no,maintain,10.0,1,non_responder
+287,48,female,Latino/Hispanic,Accra,Africa/Accra,iOS,Fitbit,12,moderate,medium,therapy,2024-01-01,4.5,-7.5,62.5,responder,yes,no,maintain,10.0,1,non_responder
+288,59,female,African,Nairobi,Africa/Nairobi,iOS,Apple Watch,15,moderately_severe,medium,antidepressant,2024-01-01,10.6,-4.4,29.33,partial_responder,no,no,maintain,,0,partial_responder
+289,46,female,African,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,15,moderately_severe,high,combined,2024-01-01,12.2,-2.8,18.67,non_responder,no,no,adjust,,0,non_responder
+290,42,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,17,moderately_severe,medium,combined,2024-01-01,14.5,-2.5,14.71,non_responder,no,no,adjust,,0,non_responder
+291,54,male,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,19,moderately_severe,low,therapy,2024-01-01,9.9,-9.1,47.89,partial_responder,no,no,maintain,,0,partial_responder
+292,49,male,Latino/Hispanic,Accra,Africa/Accra,Android,Garmin,11,moderate,high,therapy,2024-01-01,4.6,-6.4,58.18,responder,yes,no,maintain,12.0,1,non_responder
+293,47,female,European,Accra,Africa/Accra,iOS,Fitbit,17,moderately_severe,low,antidepressant,2024-01-01,7.4,-9.6,56.47,responder,no,no,maintain,10.0,1,non_responder
+294,27,female,South Asian,London,Europe/London,Android,Fitbit,19,moderately_severe,low,combined,2024-01-01,6.7,-12.3,64.74,responder,no,no,maintain,10.0,1,non_responder
+295,63,female,East Asian,Mumbai,Asia/Kolkata,Android,Apple Watch,15,moderately_severe,high,antidepressant,2024-01-01,10.2,-4.8,32.0,partial_responder,no,no,maintain,,0,partial_responder
+296,29,female,European,London,Europe/London,Android,Xiaomi Band,10,moderate,medium,antidepressant,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+297,45,female,African,Nairobi,Africa/Nairobi,iOS,Garmin,24,severe,low,therapy,2024-01-01,12.2,-11.8,49.17,partial_responder,no,no,maintain,,0,partial_responder
+298,30,male,East Asian,London,Europe/London,Android,Apple Watch,13,moderate,medium,combined,2024-01-01,0.8,-12.2,93.85,responder,yes,no,maintain,6.0,1,delayed_responder
+299,40,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Apple Watch,11,moderate,medium,combined,2024-01-01,2.1,-8.9,80.91,responder,yes,no,maintain,10.0,1,non_responder
+300,35,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,11,moderate,medium,antidepressant,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,10.0,1,non_responder
+301,65,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Garmin,16,moderately_severe,medium,antidepressant,2024-01-01,3.5,-12.5,78.12,responder,yes,no,maintain,10.0,1,non_responder
+302,25,male,African,London,Europe/London,iOS,Samsung Watch,22,severe,medium,therapy,2024-01-01,10.4,-11.6,52.73,responder,no,no,maintain,10.0,1,non_responder
+303,29,male,African,Nairobi,Africa/Nairobi,iOS,Apple Watch,11,moderate,low,combined,2024-01-01,4.8,-6.2,56.36,responder,yes,no,maintain,8.0,0,delayed_responder
+304,65,male,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,12,moderate,high,antidepressant,2024-01-01,6.3,-5.7,47.5,partial_responder,no,no,adjust,,0,unstable_responder
+305,47,female,African,Accra,Africa/Accra,iOS,Garmin,11,moderate,medium,combined,2024-01-01,4.1,-6.9,62.73,responder,yes,no,maintain,12.0,1,non_responder
+306,40,female,European,Mumbai,Asia/Kolkata,Android,Garmin,23,severe,low,antidepressant,2024-01-01,8.7,-14.3,62.17,responder,no,no,maintain,12.0,1,non_responder
+307,59,male,East Asian,Berlin,Europe/Berlin,iOS,Garmin,20,severe,high,therapy,2024-01-01,9.8,-10.2,51.0,responder,no,no,maintain,12.0,1,non_responder
+308,39,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,24,severe,medium,antidepressant,2024-01-01,20.6,-3.4,14.17,non_responder,no,no,switch,,0,non_responder
+309,52,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,13,moderate,high,antidepressant,2024-01-01,2.2,-10.8,83.08,responder,yes,no,maintain,10.0,1,non_responder
+310,62,male,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,medium,combined,2024-01-01,3.6,-10.4,74.29,responder,yes,no,maintain,10.0,1,non_responder
+311,63,male,South Asian,Accra,Africa/Accra,Android,Fitbit,19,moderately_severe,medium,antidepressant,2024-01-01,9.1,-9.9,52.11,responder,no,no,maintain,12.0,1,non_responder
+312,46,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Samsung Watch,8,mild,medium,therapy,2024-01-01,3.1,-4.9,61.25,responder,yes,no,maintain,4.0,0,early_responder
+313,21,female,African,Nairobi,Africa/Nairobi,Android,Samsung Watch,13,moderate,medium,therapy,2024-01-01,10.2,-2.8,21.54,non_responder,no,no,switch,,0,non_responder
+314,46,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,18,moderately_severe,medium,combined,2024-01-01,14.6,-3.4,18.89,non_responder,no,no,switch,,0,non_responder
+315,39,female,Latino/Hispanic,Accra,Africa/Accra,Android,Fitbit,12,moderate,medium,combined,2024-01-01,5.8,-6.2,51.67,responder,no,no,maintain,12.0,1,non_responder
+316,59,male,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,medium,antidepressant,2024-01-01,0.0,-14.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+317,31,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,6.7,-10.3,60.59,responder,no,no,maintain,10.0,1,non_responder
+318,46,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,19,moderately_severe,high,combined,2024-01-01,13.2,-5.8,30.53,partial_responder,no,no,adjust,,0,partial_responder
+319,48,female,African,Berlin,Europe/Berlin,iOS,Apple Watch,12,moderate,medium,combined,2024-01-01,0.7,-11.3,94.17,responder,yes,no,maintain,6.0,1,delayed_responder
+320,56,female,Middle Eastern/North African,Accra,Africa/Accra,Android,Garmin,12,moderate,low,combined,2024-01-01,6.9,-5.1,42.5,partial_responder,no,no,maintain,,0,unstable_responder
+321,64,female,European,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Fitbit,16,moderately_severe,medium,therapy,2024-01-01,8.2,-7.8,48.75,partial_responder,no,no,maintain,,0,partial_responder
+322,33,male,African,Mumbai,Asia/Kolkata,Android,Fitbit,16,moderately_severe,low,combined,2024-01-01,4.3,-11.7,73.12,responder,yes,no,maintain,8.0,1,delayed_responder
+323,46,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Fitbit,15,moderately_severe,low,antidepressant,2024-01-01,7.9,-7.1,47.33,partial_responder,no,no,maintain,,0,partial_responder
+324,43,female,South Asian,Nairobi,Africa/Nairobi,Android,Apple Watch,26,severe,high,therapy,2024-01-01,13.9,-12.1,46.54,partial_responder,no,no,maintain,,0,partial_responder
+325,38,female,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,10,moderate,medium,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+326,62,male,African,Accra,Africa/Accra,iOS,Garmin,14,moderate,low,combined,2024-01-01,7.6,-6.4,45.71,partial_responder,no,no,adjust,,0,partial_responder
+327,52,female,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,medium,combined,2024-01-01,9.1,-5.9,39.33,partial_responder,no,no,maintain,,0,partial_responder
+328,53,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,15,moderately_severe,medium,combined,2024-01-01,11.2,-3.8,25.33,partial_responder,no,no,maintain,,0,partial_responder
+329,54,female,South Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,15,moderately_severe,medium,antidepressant,2024-01-01,11.6,-3.4,22.67,non_responder,no,no,switch,,0,non_responder
+330,47,male,European,London,Europe/London,Android,Apple Watch,17,moderately_severe,medium,combined,2024-01-01,8.1,-8.9,52.35,responder,no,no,maintain,12.0,1,non_responder
+331,42,male,European,Mumbai,Asia/Kolkata,Android,Xiaomi Band,11,moderate,medium,combined,2024-01-01,10.0,-1.0,9.09,non_responder,no,no,adjust,,0,non_responder
+332,48,male,South Asian,Nairobi,Africa/Nairobi,Android,Garmin,20,severe,medium,therapy,2024-01-01,10.3,-9.7,48.5,partial_responder,no,no,adjust,8.0,0,delayed_responder
+333,60,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,20,severe,high,antidepressant,2024-01-01,10.9,-9.1,45.5,partial_responder,no,no,maintain,,0,partial_responder
+334,47,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,13,moderate,low,combined,2024-01-01,3.4,-9.6,73.85,responder,yes,no,maintain,6.0,1,delayed_responder
+335,63,male,South Asian,London,Europe/London,Android,Apple Watch,8,mild,high,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+336,64,female,African,Mumbai,Asia/Kolkata,iOS,Garmin,11,moderate,high,therapy,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+337,60,female,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Samsung Watch,10,moderate,low,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+338,42,male,South Asian,Berlin,Europe/Berlin,Android,Garmin,13,moderate,low,combined,2024-01-01,5.4,-7.6,58.46,responder,no,no,maintain,4.0,0,early_responder
+339,29,female,African,London,Europe/London,Android,Apple Watch,11,moderate,medium,combined,2024-01-01,9.4,-1.6,14.55,non_responder,no,no,adjust,,0,non_responder
+340,35,male,European,Nairobi,Africa/Nairobi,Android,Fitbit,19,moderately_severe,low,antidepressant,2024-01-01,11.7,-7.3,38.42,partial_responder,no,no,maintain,,0,partial_responder
+341,39,female,South Asian,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,13,moderate,medium,antidepressant,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+342,45,male,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Fitbit,10,moderate,low,therapy,2024-01-01,1.4,-8.6,86.0,responder,yes,no,maintain,10.0,1,non_responder
+343,41,female,South Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,18,moderately_severe,medium,combined,2024-01-01,3.2,-14.8,82.22,responder,yes,no,maintain,10.0,1,non_responder
+344,41,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Fitbit,12,moderate,medium,combined,2024-01-01,5.3,-6.7,55.83,responder,no,no,maintain,10.0,1,non_responder
+345,29,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,16,moderately_severe,high,combined,2024-01-01,15.0,-1.0,6.25,non_responder,no,no,adjust,,0,non_responder
+346,21,male,European,Mumbai,Asia/Kolkata,Android,Apple Watch,15,moderately_severe,medium,combined,2024-01-01,8.7,-6.3,42.0,partial_responder,no,no,maintain,,0,unstable_responder
+347,56,female,Middle Eastern/North African,Berlin,Europe/Berlin,iOS,Fitbit,18,moderately_severe,low,antidepressant,2024-01-01,10.1,-7.9,43.89,partial_responder,no,no,maintain,,0,partial_responder
+348,47,female,South Asian,London,Europe/London,Android,Apple Watch,16,moderately_severe,low,antidepressant,2024-01-01,13.5,-2.5,15.62,non_responder,no,no,switch,,0,non_responder
+349,18,male,African,Accra,Africa/Accra,Android,Xiaomi Band,22,severe,high,combined,2024-01-01,15.4,-6.6,30.0,partial_responder,no,no,adjust,,0,partial_responder
+350,38,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Garmin,10,moderate,medium,therapy,2024-01-01,1.9,-8.1,81.0,responder,yes,no,maintain,10.0,1,non_responder
+351,63,female,South Asian,Accra,Africa/Accra,Android,Garmin,17,moderately_severe,low,therapy,2024-01-01,3.8,-13.2,77.65,responder,yes,no,maintain,8.0,1,delayed_responder
+352,60,female,East Asian,Accra,Africa/Accra,iOS,Xiaomi Band,20,severe,medium,antidepressant,2024-01-01,12.2,-7.8,39.0,partial_responder,no,no,maintain,,0,partial_responder
+353,49,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,20,severe,medium,therapy,2024-01-01,14.3,-5.7,28.5,partial_responder,no,no,maintain,,0,partial_responder
+354,19,male,East Asian,London,Europe/London,Android,Fitbit,10,moderate,high,antidepressant,2024-01-01,5.5,-4.5,45.0,partial_responder,no,no,adjust,,0,unstable_responder
+355,56,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,15,moderately_severe,low,combined,2024-01-01,3.0,-12.0,80.0,responder,yes,no,maintain,8.0,1,delayed_responder
+356,23,male,Latino/Hispanic,London,Europe/London,Android,Garmin,13,moderate,medium,antidepressant,2024-01-01,1.9,-11.1,85.38,responder,yes,no,maintain,8.0,1,delayed_responder
+357,44,male,Mixed/Other,Accra,Africa/Accra,Android,Fitbit,9,mild,medium,therapy,2024-01-01,8.7,-0.3,3.33,non_responder,no,no,adjust,,0,non_responder
+358,29,male,European,Accra,Africa/Accra,iOS,Fitbit,13,moderate,high,therapy,2024-01-01,4.5,-8.5,65.38,responder,yes,no,maintain,8.0,1,delayed_responder
+359,51,female,African,Accra,Africa/Accra,Android,Samsung Watch,12,moderate,low,combined,2024-01-01,4.6,-7.4,61.67,responder,yes,no,maintain,12.0,1,unstable_responder
+360,56,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,10,moderate,high,therapy,2024-01-01,10.3,0.3,-3.0,non_responder,no,yes,switch,,0,non_responder
+361,27,female,South Asian,London,Europe/London,iOS,Apple Watch,17,moderately_severe,low,antidepressant,2024-01-01,12.0,-5.0,29.41,partial_responder,no,no,maintain,,0,unstable_responder
+362,50,male,Middle Eastern/North African,London,Europe/London,Android,Apple Watch,16,moderately_severe,low,combined,2024-01-01,5.7,-10.3,64.38,responder,no,no,maintain,12.0,1,unstable_responder
+363,18,male,Latino/Hispanic,Accra,Africa/Accra,Android,Samsung Watch,14,moderate,low,antidepressant,2024-01-01,3.0,-11.0,78.57,responder,yes,no,maintain,6.0,1,delayed_responder
+364,45,female,European,Berlin,Europe/Berlin,Android,Samsung Watch,10,moderate,medium,combined,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+365,44,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,15,moderately_severe,medium,combined,2024-01-01,2.7,-12.3,82.0,responder,yes,no,maintain,6.0,1,delayed_responder
+366,20,female,East Asian,London,Europe/London,Android,Fitbit,20,severe,low,therapy,2024-01-01,8.2,-11.8,59.0,responder,no,no,maintain,10.0,1,non_responder
+367,45,female,South Asian,London,Europe/London,iOS,Garmin,8,mild,medium,antidepressant,2024-01-01,1.4,-6.6,82.5,responder,yes,no,maintain,8.0,0,delayed_responder
+368,53,female,South Asian,London,Europe/London,iOS,Garmin,13,moderate,medium,antidepressant,2024-01-01,5.1,-7.9,60.77,responder,no,no,maintain,10.0,1,non_responder
+369,25,male,Mixed/Other,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,medium,antidepressant,2024-01-01,2.6,-12.4,82.67,responder,yes,no,maintain,8.0,1,delayed_responder
+370,41,female,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Fitbit,23,severe,medium,antidepressant,2024-01-01,10.9,-12.1,52.61,responder,no,no,maintain,12.0,1,non_responder
+371,42,female,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,12,moderate,high,antidepressant,2024-01-01,1.8,-10.2,85.0,responder,yes,no,maintain,10.0,1,non_responder
+372,33,male,Latino/Hispanic,London,Europe/London,Android,Samsung Watch,16,moderately_severe,low,therapy,2024-01-01,11.2,-4.8,30.0,partial_responder,no,yes,maintain,8.0,0,delayed_responder
+373,59,male,South Asian,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,10,moderate,high,therapy,2024-01-01,3.1,-6.9,69.0,responder,yes,no,maintain,10.0,1,non_responder
+374,37,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,15,moderately_severe,medium,therapy,2024-01-01,4.3,-10.7,71.33,responder,yes,no,maintain,8.0,1,delayed_responder
+375,53,male,European,London,Europe/London,Android,Fitbit,18,moderately_severe,low,antidepressant,2024-01-01,9.4,-8.6,47.78,partial_responder,no,no,maintain,,0,partial_responder
+376,65,female,South Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,15,moderately_severe,low,combined,2024-01-01,6.7,-8.3,55.33,responder,no,no,maintain,12.0,1,non_responder
+377,29,male,African,Berlin,Europe/Berlin,Android,Samsung Watch,10,moderate,medium,antidepressant,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+378,57,female,African,London,Europe/London,Android,Fitbit,11,moderate,medium,combined,2024-01-01,3.1,-7.9,71.82,responder,yes,no,maintain,10.0,1,non_responder
+379,29,male,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,11,moderate,medium,antidepressant,2024-01-01,5.8,-5.2,47.27,partial_responder,no,no,maintain,,0,partial_responder
+380,60,female,Latino/Hispanic,Mumbai,Asia/Kolkata,iOS,Samsung Watch,17,moderately_severe,low,combined,2024-01-01,3.9,-13.1,77.06,responder,yes,no,maintain,8.0,1,delayed_responder
+381,28,female,African,Mumbai,Asia/Kolkata,Android,Fitbit,16,moderately_severe,low,combined,2024-01-01,12.7,-3.3,20.63,non_responder,no,no,adjust,,0,non_responder
+382,49,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,14,moderate,medium,combined,2024-01-01,7.8,-6.2,44.29,partial_responder,no,no,adjust,,0,partial_responder
+383,58,female,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Apple Watch,15,moderately_severe,low,therapy,2024-01-01,10.2,-4.8,32.0,partial_responder,no,no,maintain,,0,unstable_responder
+384,19,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,13,moderate,low,therapy,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+385,55,male,Mixed/Other,Berlin,Europe/Berlin,Android,Apple Watch,11,moderate,medium,antidepressant,2024-01-01,0.5,-10.5,95.45,responder,yes,no,maintain,6.0,1,delayed_responder
+386,43,female,South Asian,London,Europe/London,iOS,Xiaomi Band,10,moderate,low,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+387,24,female,Mixed/Other,Berlin,Europe/Berlin,Android,Apple Watch,9,mild,high,combined,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,10.0,1,non_responder
+388,57,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,19,moderately_severe,low,therapy,2024-01-01,11.6,-7.4,38.95,partial_responder,no,no,maintain,,0,partial_responder
+389,33,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,13,moderate,medium,combined,2024-01-01,1.4,-11.6,89.23,responder,yes,no,maintain,10.0,1,non_responder
+390,30,female,African,Mumbai,Asia/Kolkata,Android,Apple Watch,12,moderate,high,therapy,2024-01-01,9.0,-3.0,25.0,partial_responder,no,no,maintain,,0,partial_responder
+391,24,female,European,Berlin,Europe/Berlin,iOS,Apple Watch,14,moderate,medium,combined,2024-01-01,10.3,-3.7,26.43,partial_responder,no,no,maintain,,0,partial_responder
+392,60,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,13,moderate,high,antidepressant,2024-01-01,5.3,-7.7,59.23,responder,no,no,maintain,12.0,1,non_responder
+393,38,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,16,moderately_severe,medium,combined,2024-01-01,5.2,-10.8,67.5,responder,no,no,maintain,8.0,1,delayed_responder
+394,47,male,East Asian,Berlin,Europe/Berlin,Android,Fitbit,11,moderate,high,antidepressant,2024-01-01,3.6,-7.4,67.27,responder,yes,no,maintain,6.0,1,delayed_responder
+395,40,female,European,Nairobi,Africa/Nairobi,iOS,Fitbit,8,mild,medium,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+396,26,male,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Fitbit,18,moderately_severe,medium,combined,2024-01-01,7.4,-10.6,58.89,responder,no,no,maintain,8.0,1,delayed_responder
+397,30,female,Mixed/Other,Nairobi,Africa/Nairobi,iOS,Fitbit,10,moderate,low,combined,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+398,44,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,16,moderately_severe,high,combined,2024-01-01,3.0,-13.0,81.25,responder,yes,no,maintain,8.0,1,delayed_responder
+399,52,male,Middle Eastern/North African,London,Europe/London,Android,Apple Watch,13,moderate,low,combined,2024-01-01,8.1,-4.9,37.69,partial_responder,no,no,maintain,,0,partial_responder
+400,61,female,Middle Eastern/North African,London,Europe/London,iOS,Samsung Watch,15,moderately_severe,low,antidepressant,2024-01-01,7.1,-7.9,52.67,responder,no,no,maintain,12.0,1,non_responder
+401,63,female,African,Berlin,Europe/Berlin,iOS,Apple Watch,17,moderately_severe,low,combined,2024-01-01,8.6,-8.4,49.41,partial_responder,no,no,adjust,,0,partial_responder
+402,33,female,African,London,Europe/London,iOS,Apple Watch,11,moderate,high,combined,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+403,54,male,East Asian,Nairobi,Africa/Nairobi,Android,Garmin,10,moderate,low,combined,2024-01-01,2.3,-7.7,77.0,responder,yes,no,maintain,6.0,1,delayed_responder
+404,50,male,Latino/Hispanic,Accra,Africa/Accra,Android,Fitbit,16,moderately_severe,medium,combined,2024-01-01,4.6,-11.4,71.25,responder,yes,no,maintain,6.0,1,delayed_responder
+405,26,male,South Asian,Berlin,Europe/Berlin,iOS,Apple Watch,14,moderate,medium,combined,2024-01-01,3.0,-11.0,78.57,responder,yes,no,maintain,10.0,1,non_responder
+406,60,female,European,London,Europe/London,Android,Apple Watch,10,moderate,high,combined,2024-01-01,3.0,-7.0,70.0,responder,yes,no,maintain,10.0,1,non_responder
+407,42,male,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,14,moderate,low,antidepressant,2024-01-01,3.0,-11.0,78.57,responder,yes,no,maintain,8.0,1,delayed_responder
+408,56,female,African,Berlin,Europe/Berlin,Android,Garmin,11,moderate,high,antidepressant,2024-01-01,8.8,-2.2,20.0,non_responder,no,no,adjust,,0,non_responder
+409,36,female,East Asian,Nairobi,Africa/Nairobi,Android,Garmin,13,moderate,low,therapy,2024-01-01,0.2,-12.8,98.46,responder,yes,no,maintain,4.0,1,early_responder
+410,46,female,European,Nairobi,Africa/Nairobi,iOS,Apple Watch,16,moderately_severe,medium,combined,2024-01-01,4.0,-12.0,75.0,responder,yes,no,maintain,6.0,1,delayed_responder
+411,34,male,African,London,Europe/London,iOS,Apple Watch,13,moderate,low,combined,2024-01-01,3.9,-9.1,70.0,responder,yes,no,maintain,10.0,1,non_responder
+412,52,female,African,Nairobi,Africa/Nairobi,Android,Apple Watch,10,moderate,low,antidepressant,2024-01-01,3.9,-6.1,61.0,responder,yes,no,maintain,8.0,0,delayed_responder
+413,32,male,East Asian,Berlin,Europe/Berlin,iOS,Xiaomi Band,18,moderately_severe,low,combined,2024-01-01,4.5,-13.5,75.0,responder,yes,no,maintain,8.0,1,delayed_responder
+414,50,female,East Asian,Berlin,Europe/Berlin,iOS,Xiaomi Band,14,moderate,medium,therapy,2024-01-01,13.9,-0.1,0.71,non_responder,no,no,switch,,0,non_responder
+415,64,male,South Asian,Accra,Africa/Accra,Android,Fitbit,20,severe,medium,combined,2024-01-01,11.2,-8.8,44.0,partial_responder,no,no,maintain,,0,partial_responder
+416,58,female,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,13,moderate,low,therapy,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+417,41,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,21,severe,medium,therapy,2024-01-01,11.9,-9.1,43.33,partial_responder,no,no,maintain,10.0,0,partial_responder
+418,54,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,16,moderately_severe,low,therapy,2024-01-01,3.3,-12.7,79.38,responder,yes,no,maintain,6.0,1,delayed_responder
+419,55,male,African,Nairobi,Africa/Nairobi,Android,Xiaomi Band,16,moderately_severe,medium,combined,2024-01-01,10.2,-5.8,36.25,partial_responder,no,no,adjust,,0,partial_responder
+420,51,male,European,London,Europe/London,Android,Samsung Watch,9,mild,medium,antidepressant,2024-01-01,6.7,-2.3,25.56,partial_responder,no,no,adjust,,0,partial_responder
+421,39,male,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,9,mild,low,antidepressant,2024-01-01,3.1,-5.9,65.56,responder,yes,no,maintain,4.0,0,early_responder
+422,42,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,13,moderate,medium,combined,2024-01-01,8.0,-5.0,38.46,partial_responder,no,no,maintain,,0,partial_responder
+423,28,male,African,Nairobi,Africa/Nairobi,Android,Samsung Watch,12,moderate,low,antidepressant,2024-01-01,4.5,-7.5,62.5,responder,yes,no,maintain,12.0,1,non_responder
+424,56,male,Mixed/Other,London,Europe/London,Android,Xiaomi Band,18,moderately_severe,medium,antidepressant,2024-01-01,6.6,-11.4,63.33,responder,no,no,maintain,10.0,1,non_responder
+425,57,male,European,Berlin,Europe/Berlin,Android,Apple Watch,15,moderately_severe,medium,antidepressant,2024-01-01,3.8,-11.2,74.67,responder,yes,no,maintain,8.0,1,delayed_responder
+426,32,male,Mixed/Other,London,Europe/London,Android,Garmin,16,moderately_severe,low,combined,2024-01-01,3.6,-12.4,77.5,responder,yes,no,maintain,12.0,1,non_responder
+427,62,male,European,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,medium,combined,2024-01-01,2.4,-13.6,85.0,responder,yes,no,maintain,4.0,1,early_responder
+428,30,male,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,low,therapy,2024-01-01,12.2,-3.8,23.75,non_responder,no,no,adjust,,0,non_responder
+429,28,female,Latino/Hispanic,Accra,Africa/Accra,iOS,Xiaomi Band,18,moderately_severe,medium,combined,2024-01-01,7.1,-10.9,60.56,responder,no,no,maintain,10.0,1,non_responder
+430,56,male,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,high,therapy,2024-01-01,6.4,-9.6,60.0,responder,no,no,maintain,12.0,1,non_responder
+431,49,female,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Garmin,21,severe,medium,antidepressant,2024-01-01,16.8,-4.2,20.0,non_responder,no,no,adjust,,0,non_responder
+432,49,female,European,Berlin,Europe/Berlin,iOS,Xiaomi Band,8,mild,low,antidepressant,2024-01-01,3.7,-4.3,53.75,responder,yes,no,maintain,4.0,0,early_responder
+433,64,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Garmin,18,moderately_severe,medium,antidepressant,2024-01-01,10.4,-7.6,42.22,partial_responder,no,no,maintain,,0,partial_responder
+434,63,female,Latino/Hispanic,Berlin,Europe/Berlin,Android,Samsung Watch,27,severe,medium,combined,2024-01-01,18.1,-8.9,32.96,partial_responder,no,no,maintain,,0,partial_responder
+435,46,male,South Asian,Accra,Africa/Accra,Android,Fitbit,14,moderate,low,combined,2024-01-01,9.9,-4.1,29.29,partial_responder,no,no,maintain,,0,partial_responder
+436,54,male,African,London,Europe/London,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,5.0,-12.0,70.59,responder,no,no,maintain,6.0,0,non_responder
+437,23,male,South Asian,Mumbai,Asia/Kolkata,iOS,Fitbit,17,moderately_severe,medium,antidepressant,2024-01-01,9.0,-8.0,47.06,partial_responder,no,no,adjust,,0,partial_responder
+438,51,female,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,medium,combined,2024-01-01,5.8,-10.2,63.75,responder,no,no,maintain,8.0,1,delayed_responder
+439,41,male,Mixed/Other,London,Europe/London,Android,Apple Watch,15,moderately_severe,medium,antidepressant,2024-01-01,2.0,-13.0,86.67,responder,yes,no,maintain,8.0,1,delayed_responder
+440,55,male,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,medium,antidepressant,2024-01-01,5.9,-8.1,57.86,responder,no,no,maintain,12.0,1,non_responder
+441,60,female,European,Berlin,Europe/Berlin,Android,Samsung Watch,14,moderate,high,combined,2024-01-01,5.4,-8.6,61.43,responder,no,no,maintain,12.0,1,non_responder
+442,42,male,East Asian,London,Europe/London,Android,Apple Watch,15,moderately_severe,low,therapy,2024-01-01,2.7,-12.3,82.0,responder,yes,no,maintain,8.0,1,delayed_responder
+443,35,female,South Asian,London,Europe/London,iOS,Garmin,11,moderate,high,therapy,2024-01-01,0.6,-10.4,94.55,responder,yes,no,maintain,6.0,1,delayed_responder
+444,53,male,East Asian,Berlin,Europe/Berlin,Android,Apple Watch,15,moderately_severe,high,antidepressant,2024-01-01,4.9,-10.1,67.33,responder,yes,no,maintain,8.0,1,delayed_responder
+445,50,female,South Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,15,moderately_severe,medium,combined,2024-01-01,3.0,-12.0,80.0,responder,yes,no,maintain,8.0,1,delayed_responder
+446,41,male,East Asian,Berlin,Europe/Berlin,iOS,Samsung Watch,9,mild,low,combined,2024-01-01,4.0,-5.0,55.56,responder,yes,no,maintain,4.0,1,early_responder
+447,64,male,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,medium,antidepressant,2024-01-01,7.6,-8.4,52.5,responder,no,no,maintain,12.0,1,non_responder
+448,43,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,high,antidepressant,2024-01-01,15.7,-1.3,7.65,non_responder,no,no,switch,,0,non_responder
+449,63,female,Mixed/Other,Mumbai,Asia/Kolkata,Android,Fitbit,15,moderately_severe,high,antidepressant,2024-01-01,8.2,-6.8,45.33,partial_responder,no,no,maintain,,0,partial_responder
+450,21,female,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,16,moderately_severe,low,combined,2024-01-01,13.3,-2.7,16.87,non_responder,no,no,switch,,0,non_responder
+451,34,female,African,London,Europe/London,iOS,Xiaomi Band,16,moderately_severe,medium,combined,2024-01-01,2.7,-13.3,83.12,responder,yes,no,maintain,8.0,1,delayed_responder
+452,60,male,Mixed/Other,Mumbai,Asia/Kolkata,Android,Xiaomi Band,13,moderate,medium,combined,2024-01-01,1.8,-11.2,86.15,responder,yes,no,maintain,8.0,1,delayed_responder
+453,42,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,12,moderate,low,combined,2024-01-01,2.8,-9.2,76.67,responder,yes,no,maintain,10.0,1,non_responder
+454,48,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,11,moderate,medium,combined,2024-01-01,5.1,-5.9,53.64,responder,no,no,maintain,8.0,1,delayed_responder
+455,48,male,South Asian,London,Europe/London,Android,Samsung Watch,19,moderately_severe,low,antidepressant,2024-01-01,15.7,-3.3,17.37,non_responder,no,no,switch,,0,non_responder
+456,20,male,South Asian,Berlin,Europe/Berlin,iOS,Samsung Watch,18,moderately_severe,low,antidepressant,2024-01-01,5.8,-12.2,67.78,responder,no,no,maintain,8.0,1,delayed_responder
+457,25,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,13,moderate,low,therapy,2024-01-01,10.4,-2.6,20.0,non_responder,no,no,adjust,,0,non_responder
+458,40,female,South Asian,Berlin,Europe/Berlin,Android,Apple Watch,11,moderate,medium,combined,2024-01-01,0.5,-10.5,95.45,responder,yes,no,maintain,8.0,1,delayed_responder
+459,60,female,Mixed/Other,London,Europe/London,iOS,Fitbit,12,moderate,medium,therapy,2024-01-01,9.7,-2.3,19.17,non_responder,no,no,adjust,,0,non_responder
+460,18,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,16,moderately_severe,medium,antidepressant,2024-01-01,4.8,-11.2,70.0,responder,yes,no,maintain,8.0,1,delayed_responder
+461,62,female,African,Accra,Africa/Accra,Android,Xiaomi Band,11,moderate,high,antidepressant,2024-01-01,1.1,-9.9,90.0,responder,yes,no,maintain,6.0,1,delayed_responder
+462,22,female,African,Nairobi,Africa/Nairobi,Android,Fitbit,15,moderately_severe,low,combined,2024-01-01,5.5,-9.5,63.33,responder,no,no,maintain,6.0,1,delayed_responder
+463,55,female,East Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,13,moderate,high,antidepressant,2024-01-01,10.5,-2.5,19.23,non_responder,no,no,adjust,,0,non_responder
+464,41,female,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,21,severe,medium,therapy,2024-01-01,11.8,-9.2,43.81,partial_responder,no,no,maintain,,0,partial_responder
+465,46,female,Latino/Hispanic,Berlin,Europe/Berlin,Android,Apple Watch,20,severe,low,combined,2024-01-01,7.1,-12.9,64.5,responder,no,no,maintain,10.0,1,non_responder
+466,23,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,15,moderately_severe,medium,combined,2024-01-01,10.7,-4.3,28.67,partial_responder,no,no,maintain,,0,unstable_responder
+467,51,male,East Asian,London,Europe/London,Android,Xiaomi Band,16,moderately_severe,medium,antidepressant,2024-01-01,12.0,-4.0,25.0,partial_responder,no,no,adjust,,0,partial_responder
+468,27,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Fitbit,13,moderate,low,antidepressant,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+469,33,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,13,moderate,low,antidepressant,2024-01-01,2.3,-10.7,82.31,responder,yes,no,maintain,10.0,1,non_responder
+470,24,male,South Asian,Accra,Africa/Accra,Android,Xiaomi Band,25,severe,medium,combined,2024-01-01,13.0,-12.0,48.0,partial_responder,no,no,maintain,,0,partial_responder
+471,49,female,European,London,Europe/London,iOS,Apple Watch,21,severe,high,combined,2024-01-01,15.0,-6.0,28.57,partial_responder,no,no,adjust,,0,partial_responder
+472,27,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,20,severe,high,combined,2024-01-01,15.0,-5.0,25.0,partial_responder,no,no,maintain,,0,partial_responder
+473,61,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Samsung Watch,13,moderate,high,antidepressant,2024-01-01,7.3,-5.7,43.85,partial_responder,no,no,maintain,,0,partial_responder
+474,42,male,Mixed/Other,London,Europe/London,Android,Garmin,20,severe,low,antidepressant,2024-01-01,8.5,-11.5,57.5,responder,no,no,maintain,12.0,1,non_responder
+475,24,female,East Asian,London,Europe/London,Android,Samsung Watch,15,moderately_severe,high,combined,2024-01-01,3.9,-11.1,74.0,responder,yes,no,maintain,12.0,1,non_responder
+476,59,female,European,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,high,therapy,2024-01-01,6.5,-10.5,61.76,responder,no,no,maintain,10.0,1,non_responder
+477,34,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,12,moderate,medium,combined,2024-01-01,4.8,-7.2,60.0,responder,yes,no,maintain,12.0,1,non_responder
+478,56,female,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Fitbit,11,moderate,low,combined,2024-01-01,3.4,-7.6,69.09,responder,yes,no,maintain,12.0,1,non_responder
+479,48,female,Middle Eastern/North African,Accra,Africa/Accra,Android,Fitbit,11,moderate,high,combined,2024-01-01,8.3,-2.7,24.55,non_responder,no,no,switch,,0,non_responder
+480,52,female,African,Berlin,Europe/Berlin,iOS,Samsung Watch,17,moderately_severe,high,combined,2024-01-01,15.8,-1.2,7.06,non_responder,no,no,adjust,,0,non_responder
+481,63,female,African,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,low,antidepressant,2024-01-01,5.5,-12.5,69.44,responder,no,no,maintain,8.0,1,delayed_responder
+482,56,male,South Asian,Berlin,Europe/Berlin,Android,Samsung Watch,16,moderately_severe,medium,combined,2024-01-01,8.7,-7.3,45.63,partial_responder,no,no,maintain,,0,partial_responder
+483,62,female,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,21,severe,high,combined,2024-01-01,13.1,-7.9,37.62,partial_responder,no,no,adjust,,0,partial_responder
+484,32,male,South Asian,Mumbai,Asia/Kolkata,iOS,Fitbit,12,moderate,medium,combined,2024-01-01,1.1,-10.9,90.83,responder,yes,no,maintain,4.0,1,early_responder
+485,55,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,13,moderate,medium,antidepressant,2024-01-01,7.2,-5.8,44.62,partial_responder,no,no,maintain,,0,partial_responder
+486,50,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Garmin,10,moderate,low,combined,2024-01-01,2.3,-7.7,77.0,responder,yes,no,maintain,10.0,1,non_responder
+487,43,female,South Asian,London,Europe/London,iOS,Apple Watch,17,moderately_severe,low,combined,2024-01-01,12.0,-5.0,29.41,partial_responder,no,no,adjust,,0,partial_responder
+488,60,female,East Asian,Berlin,Europe/Berlin,Android,Garmin,17,moderately_severe,medium,antidepressant,2024-01-01,6.1,-10.9,64.12,responder,no,no,maintain,6.0,1,delayed_responder
+489,57,male,African,London,Europe/London,Android,Xiaomi Band,12,moderate,medium,therapy,2024-01-01,4.7,-7.3,60.83,responder,yes,no,maintain,12.0,1,non_responder
+490,25,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Garmin,14,moderate,medium,antidepressant,2024-01-01,7.7,-6.3,45.0,partial_responder,no,no,maintain,,0,partial_responder
+491,58,male,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,13,moderate,high,therapy,2024-01-01,2.4,-10.6,81.54,responder,yes,no,maintain,6.0,1,delayed_responder
+492,23,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,19,moderately_severe,medium,antidepressant,2024-01-01,8.5,-10.5,55.26,responder,no,no,maintain,12.0,1,non_responder
+493,34,female,African,Accra,Africa/Accra,Android,Xiaomi Band,20,severe,medium,combined,2024-01-01,12.5,-7.5,37.5,partial_responder,no,no,maintain,,0,partial_responder
+494,53,male,African,Berlin,Europe/Berlin,Android,Samsung Watch,16,moderately_severe,low,combined,2024-01-01,11.2,-4.8,30.0,partial_responder,no,no,maintain,,0,partial_responder
+495,49,female,East Asian,Mumbai,Asia/Kolkata,Android,Garmin,12,moderate,medium,combined,2024-01-01,0.3,-11.7,97.5,responder,yes,no,maintain,4.0,0,early_responder
+496,47,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Fitbit,20,severe,medium,antidepressant,2024-01-01,12.8,-7.2,36.0,partial_responder,no,no,adjust,,0,partial_responder
+497,54,male,East Asian,Nairobi,Africa/Nairobi,iOS,Apple Watch,12,moderate,medium,antidepressant,2024-01-01,2.3,-9.7,80.83,responder,yes,no,maintain,6.0,1,delayed_responder
+498,48,female,Latino/Hispanic,London,Europe/London,Android,Samsung Watch,15,moderately_severe,medium,therapy,2024-01-01,7.9,-7.1,47.33,partial_responder,no,no,adjust,,0,partial_responder
+499,49,male,Mixed/Other,London,Europe/London,iOS,Samsung Watch,17,moderately_severe,high,therapy,2024-01-01,8.0,-9.0,52.94,responder,no,no,maintain,10.0,1,non_responder
+500,34,male,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Apple Watch,16,moderately_severe,low,combined,2024-01-01,3.3,-12.7,79.38,responder,yes,no,maintain,6.0,1,delayed_responder
+501,35,male,European,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,13,moderate,medium,combined,2024-01-01,8.2,-4.8,36.92,partial_responder,no,no,maintain,,0,partial_responder
+502,57,male,African,London,Europe/London,iOS,Garmin,19,moderately_severe,medium,combined,2024-01-01,11.0,-8.0,42.11,partial_responder,no,no,maintain,,0,partial_responder
+503,45,male,East Asian,Berlin,Europe/Berlin,Android,Apple Watch,13,moderate,high,therapy,2024-01-01,1.5,-11.5,88.46,responder,yes,no,maintain,6.0,1,delayed_responder
+504,51,male,East Asian,Berlin,Europe/Berlin,Android,Xiaomi Band,18,moderately_severe,high,therapy,2024-01-01,7.8,-10.2,56.67,responder,no,no,maintain,10.0,1,non_responder
+505,49,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Garmin,18,moderately_severe,low,combined,2024-01-01,8.6,-9.4,52.22,responder,no,no,maintain,8.0,1,delayed_responder
+506,42,female,Latino/Hispanic,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,15,moderately_severe,low,combined,2024-01-01,12.5,-2.5,16.67,non_responder,no,no,switch,,0,non_responder
+507,20,male,African,Nairobi,Africa/Nairobi,Android,Apple Watch,15,moderately_severe,high,combined,2024-01-01,8.3,-6.7,44.67,partial_responder,no,no,maintain,,0,partial_responder
+508,65,female,Latino/Hispanic,London,Europe/London,iOS,Samsung Watch,21,severe,high,antidepressant,2024-01-01,10.7,-10.3,49.05,partial_responder,no,no,adjust,,0,partial_responder
+509,49,male,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,10,moderate,low,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+510,19,female,Middle Eastern/North African,London,Europe/London,iOS,Apple Watch,13,moderate,high,combined,2024-01-01,5.7,-7.3,56.15,responder,no,no,maintain,12.0,1,non_responder
+511,36,male,African,Mumbai,Asia/Kolkata,Android,Apple Watch,8,mild,high,antidepressant,2024-01-01,8.2,0.2,-2.5,non_responder,no,no,switch,,0,non_responder
+512,30,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,iOS,Fitbit,19,moderately_severe,low,combined,2024-01-01,7.9,-11.1,58.42,responder,no,no,maintain,8.0,0,delayed_responder
+513,29,male,South Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,19,moderately_severe,medium,combined,2024-01-01,12.9,-6.1,32.11,partial_responder,no,no,maintain,,0,partial_responder
+514,55,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,medium,antidepressant,2024-01-01,10.7,-3.3,23.57,non_responder,no,no,adjust,,0,non_responder
+515,47,male,East Asian,London,Europe/London,Android,Fitbit,9,mild,low,antidepressant,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+516,51,female,European,London,Europe/London,Android,Fitbit,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+517,60,male,East Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,12,moderate,high,combined,2024-01-01,7.0,-5.0,41.67,partial_responder,no,no,maintain,,0,partial_responder
+518,26,female,African,Nairobi,Africa/Nairobi,Android,Xiaomi Band,8,mild,low,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+519,27,female,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,low,therapy,2024-01-01,10.4,-5.6,35.0,partial_responder,no,no,maintain,,0,unstable_responder
+520,60,female,Mixed/Other,London,Europe/London,iOS,Apple Watch,17,moderately_severe,medium,antidepressant,2024-01-01,9.6,-7.4,43.53,partial_responder,no,no,maintain,,0,partial_responder
+521,62,female,Middle Eastern/North African,Berlin,Europe/Berlin,iOS,Apple Watch,8,mild,medium,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+522,21,female,South Asian,Berlin,Europe/Berlin,Android,Garmin,9,mild,medium,antidepressant,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+523,43,male,Mixed/Other,Berlin,Europe/Berlin,iOS,Garmin,9,mild,low,therapy,2024-01-01,0.4,-8.6,95.56,responder,yes,no,maintain,10.0,1,non_responder
+524,26,female,South Asian,London,Europe/London,iOS,Apple Watch,12,moderate,high,antidepressant,2024-01-01,2.7,-9.3,77.5,responder,yes,no,maintain,8.0,1,delayed_responder
+525,33,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,21,severe,medium,combined,2024-01-01,10.3,-10.7,50.95,responder,no,no,maintain,10.0,1,non_responder
+526,53,female,European,Accra,Africa/Accra,iOS,Xiaomi Band,21,severe,medium,antidepressant,2024-01-01,12.2,-8.8,41.9,partial_responder,no,no,maintain,,0,partial_responder
+527,20,male,South Asian,Nairobi,Africa/Nairobi,Android,Fitbit,23,severe,high,antidepressant,2024-01-01,13.8,-9.2,40.0,partial_responder,no,no,adjust,,0,partial_responder
+528,41,male,Mixed/Other,Nairobi,Africa/Nairobi,Android,Fitbit,13,moderate,medium,combined,2024-01-01,7.1,-5.9,45.38,partial_responder,no,no,adjust,,0,partial_responder
+529,60,female,Middle Eastern/North African,Accra,Africa/Accra,iOS,Garmin,21,severe,medium,combined,2024-01-01,19.0,-2.0,9.52,non_responder,no,no,switch,,0,non_responder
+530,45,female,Latino/Hispanic,London,Europe/London,iOS,Apple Watch,15,moderately_severe,medium,therapy,2024-01-01,5.4,-9.6,64.0,responder,no,no,maintain,8.0,1,delayed_responder
+531,23,male,South Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,18,moderately_severe,low,antidepressant,2024-01-01,10.0,-8.0,44.44,partial_responder,no,no,maintain,,0,partial_responder
+532,19,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,12,moderate,medium,antidepressant,2024-01-01,2.4,-9.6,80.0,responder,yes,no,maintain,8.0,1,delayed_responder
+533,38,female,Mixed/Other,London,Europe/London,Android,Garmin,14,moderate,high,antidepressant,2024-01-01,8.1,-5.9,42.14,partial_responder,no,no,maintain,,0,partial_responder
+534,36,female,European,Mumbai,Asia/Kolkata,Android,Samsung Watch,13,moderate,high,therapy,2024-01-01,7.5,-5.5,42.31,partial_responder,no,no,maintain,,0,partial_responder
+535,53,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,13,moderate,medium,antidepressant,2024-01-01,9.5,-3.5,26.92,partial_responder,no,no,adjust,,0,partial_responder
+536,56,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,13,moderate,medium,antidepressant,2024-01-01,2.2,-10.8,83.08,responder,yes,no,maintain,12.0,1,non_responder
+537,44,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,17,moderately_severe,high,combined,2024-01-01,5.4,-11.6,68.24,responder,no,no,maintain,10.0,1,non_responder
+538,57,female,East Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,20,severe,medium,antidepressant,2024-01-01,8.1,-11.9,59.5,responder,no,no,maintain,10.0,1,non_responder
+539,28,female,European,Nairobi,Africa/Nairobi,iOS,Fitbit,20,severe,low,antidepressant,2024-01-01,8.0,-12.0,60.0,responder,no,no,maintain,12.0,1,non_responder
+540,48,male,European,Mumbai,Asia/Kolkata,Android,Garmin,18,moderately_severe,low,therapy,2024-01-01,11.6,-6.4,35.56,partial_responder,no,no,adjust,,0,unstable_responder
+541,46,male,Latino/Hispanic,London,Europe/London,Android,Fitbit,15,moderately_severe,medium,therapy,2024-01-01,0.8,-14.2,94.67,responder,yes,no,maintain,10.0,1,non_responder
+542,65,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,15,moderately_severe,medium,antidepressant,2024-01-01,7.4,-7.6,50.67,responder,no,no,maintain,12.0,1,non_responder
+543,38,female,African,Accra,Africa/Accra,Android,Samsung Watch,17,moderately_severe,high,therapy,2024-01-01,9.0,-8.0,47.06,partial_responder,no,no,adjust,,0,partial_responder
+544,63,female,African,Nairobi,Africa/Nairobi,Android,Fitbit,18,moderately_severe,medium,antidepressant,2024-01-01,12.6,-5.4,30.0,partial_responder,no,no,maintain,,0,partial_responder
+545,36,female,European,Accra,Africa/Accra,Android,Fitbit,16,moderately_severe,low,therapy,2024-01-01,13.7,-2.3,14.38,non_responder,no,no,switch,,0,non_responder
+546,28,male,African,London,Europe/London,Android,Apple Watch,16,moderately_severe,medium,antidepressant,2024-01-01,13.9,-2.1,13.12,non_responder,no,no,switch,,0,non_responder
+547,65,male,Latino/Hispanic,Nairobi,Africa/Nairobi,iOS,Samsung Watch,8,mild,medium,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+548,22,male,East Asian,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,10,moderate,medium,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+549,65,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,18,moderately_severe,low,combined,2024-01-01,8.9,-9.1,50.56,responder,no,no,maintain,12.0,1,non_responder
+550,59,female,Mixed/Other,London,Europe/London,Android,Fitbit,16,moderately_severe,medium,therapy,2024-01-01,5.9,-10.1,63.12,responder,no,no,maintain,12.0,1,non_responder
+551,57,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Apple Watch,16,moderately_severe,high,combined,2024-01-01,10.2,-5.8,36.25,partial_responder,no,no,maintain,,0,partial_responder
+552,34,female,European,Berlin,Europe/Berlin,Android,Garmin,18,moderately_severe,low,therapy,2024-01-01,3.3,-14.7,81.67,responder,yes,no,maintain,8.0,1,delayed_responder
+553,53,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,low,combined,2024-01-01,5.6,-8.4,60.0,responder,no,no,maintain,12.0,1,non_responder
+554,54,female,European,London,Europe/London,Android,Fitbit,10,moderate,low,antidepressant,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+555,47,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Fitbit,16,moderately_severe,medium,combined,2024-01-01,13.2,-2.8,17.5,non_responder,no,no,adjust,,0,non_responder
+556,57,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Fitbit,13,moderate,medium,antidepressant,2024-01-01,6.3,-6.7,51.54,responder,no,no,maintain,12.0,1,non_responder
+557,35,male,Mixed/Other,Accra,Africa/Accra,iOS,Xiaomi Band,20,severe,low,combined,2024-01-01,6.7,-13.3,66.5,responder,no,no,maintain,10.0,1,non_responder
+558,40,female,South Asian,London,Europe/London,Android,Fitbit,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+559,40,male,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Fitbit,13,moderate,medium,combined,2024-01-01,0.4,-12.6,96.92,responder,yes,no,maintain,8.0,1,delayed_responder
+560,35,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,11,moderate,medium,therapy,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+561,27,male,East Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,14,moderate,medium,combined,2024-01-01,1.5,-12.5,89.29,responder,yes,no,maintain,10.0,1,non_responder
+562,61,female,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Fitbit,19,moderately_severe,medium,combined,2024-01-01,6.8,-12.2,64.21,responder,no,no,maintain,8.0,1,delayed_responder
+563,27,female,European,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Fitbit,11,moderate,medium,therapy,2024-01-01,4.7,-6.3,57.27,responder,yes,no,maintain,8.0,0,delayed_responder
+564,35,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,8,mild,medium,combined,2024-01-01,3.5,-4.5,56.25,responder,yes,no,maintain,12.0,1,non_responder
+565,63,female,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,22,severe,medium,antidepressant,2024-01-01,19.3,-2.7,12.27,non_responder,no,no,adjust,,0,non_responder
+566,58,female,South Asian,Nairobi,Africa/Nairobi,Android,Apple Watch,18,moderately_severe,high,combined,2024-01-01,10.6,-7.4,41.11,partial_responder,no,no,adjust,,0,unstable_responder
+567,41,male,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,low,combined,2024-01-01,5.7,-8.3,59.29,responder,no,no,maintain,12.0,1,non_responder
+568,39,male,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,10,moderate,high,combined,2024-01-01,6.7,-3.3,33.0,partial_responder,no,no,maintain,,0,unstable_responder
+569,58,male,African,Nairobi,Africa/Nairobi,Android,Garmin,11,moderate,low,combined,2024-01-01,3.4,-7.6,69.09,responder,yes,yes,maintain,8.0,1,delayed_responder
+570,31,male,South Asian,Mumbai,Asia/Kolkata,Android,Apple Watch,16,moderately_severe,medium,antidepressant,2024-01-01,9.4,-6.6,41.25,partial_responder,no,no,adjust,,0,partial_responder
+571,63,female,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,19,moderately_severe,medium,therapy,2024-01-01,5.6,-13.4,70.53,responder,no,no,maintain,12.0,1,non_responder
+572,45,female,African,Accra,Africa/Accra,Android,Fitbit,11,moderate,high,combined,2024-01-01,4.0,-7.0,63.64,responder,yes,no,maintain,8.0,0,delayed_responder
+573,60,female,African,Accra,Africa/Accra,Android,Xiaomi Band,17,moderately_severe,low,therapy,2024-01-01,12.4,-4.6,27.06,partial_responder,no,no,adjust,,0,partial_responder
+574,50,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,15,moderately_severe,high,therapy,2024-01-01,10.3,-4.7,31.33,partial_responder,no,no,maintain,,0,unstable_responder
+575,21,female,African,London,Europe/London,Android,Xiaomi Band,18,moderately_severe,medium,combined,2024-01-01,10.0,-8.0,44.44,partial_responder,no,no,maintain,,0,partial_responder
+576,57,female,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,12,moderate,low,antidepressant,2024-01-01,0.0,-12.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+577,22,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Apple Watch,17,moderately_severe,low,therapy,2024-01-01,9.7,-7.3,42.94,partial_responder,no,no,adjust,,0,unstable_responder
+578,25,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,medium,therapy,2024-01-01,2.9,-12.1,80.67,responder,yes,no,maintain,10.0,1,non_responder
+579,37,male,European,London,Europe/London,iOS,Samsung Watch,16,moderately_severe,medium,therapy,2024-01-01,7.6,-8.4,52.5,responder,no,no,maintain,12.0,1,unstable_responder
+580,47,female,African,Nairobi,Africa/Nairobi,Android,Samsung Watch,11,moderate,medium,combined,2024-01-01,7.9,-3.1,28.18,partial_responder,no,no,maintain,,0,partial_responder
+581,56,male,Mixed/Other,Berlin,Europe/Berlin,iOS,Apple Watch,15,moderately_severe,medium,antidepressant,2024-01-01,9.8,-5.2,34.67,partial_responder,no,no,adjust,,0,partial_responder
+582,18,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,16,moderately_severe,medium,therapy,2024-01-01,4.4,-11.6,72.5,responder,yes,no,maintain,8.0,1,delayed_responder
+583,52,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,14,moderate,medium,combined,2024-01-01,11.3,-2.7,19.29,non_responder,no,no,adjust,,0,non_responder
+584,51,male,Mixed/Other,Berlin,Europe/Berlin,iOS,Apple Watch,17,moderately_severe,low,therapy,2024-01-01,9.7,-7.3,42.94,partial_responder,no,no,adjust,,0,partial_responder
+585,18,female,European,London,Europe/London,Android,Fitbit,11,moderate,low,antidepressant,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+586,54,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,18,moderately_severe,medium,therapy,2024-01-01,5.6,-12.4,68.89,responder,no,no,maintain,10.0,1,non_responder
+587,49,female,South Asian,Accra,Africa/Accra,Android,Xiaomi Band,18,moderately_severe,medium,combined,2024-01-01,11.7,-6.3,35.0,partial_responder,no,no,adjust,,0,partial_responder
+588,64,male,East Asian,Nairobi,Africa/Nairobi,Android,Garmin,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+589,20,female,Middle Eastern/North African,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,14,moderate,low,antidepressant,2024-01-01,4.3,-9.7,69.29,responder,yes,no,maintain,10.0,1,non_responder
+590,23,male,African,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Xiaomi Band,8,mild,high,therapy,2024-01-01,5.8,-2.2,27.5,partial_responder,no,no,maintain,,0,partial_responder
+591,65,male,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,23,severe,medium,combined,2024-01-01,15.7,-7.3,31.74,partial_responder,no,no,adjust,,0,partial_responder
+592,20,female,European,Nairobi,Africa/Nairobi,Android,Samsung Watch,16,moderately_severe,high,antidepressant,2024-01-01,11.7,-4.3,26.88,partial_responder,no,no,adjust,,0,partial_responder
+593,63,male,East Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,18,moderately_severe,low,combined,2024-01-01,9.9,-8.1,45.0,partial_responder,no,no,adjust,,0,partial_responder
+594,61,male,East Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,13,moderate,high,therapy,2024-01-01,6.4,-6.6,50.77,responder,no,no,maintain,12.0,1,non_responder
+595,52,female,African,Berlin,Europe/Berlin,Android,Xiaomi Band,19,moderately_severe,medium,antidepressant,2024-01-01,6.7,-12.3,64.74,responder,no,no,maintain,10.0,1,non_responder
+596,60,male,Middle Eastern/North African,London,Europe/London,Android,Fitbit,19,moderately_severe,medium,therapy,2024-01-01,17.4,-1.6,8.42,non_responder,no,no,switch,,0,non_responder
+597,65,male,South Asian,London,Europe/London,iOS,Samsung Watch,22,severe,high,antidepressant,2024-01-01,21.1,-0.9,4.09,non_responder,no,no,adjust,,0,non_responder
+598,48,male,African,Berlin,Europe/Berlin,iOS,Fitbit,11,moderate,medium,combined,2024-01-01,3.8,-7.2,65.45,responder,yes,no,maintain,8.0,1,delayed_responder
+599,56,male,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Fitbit,9,mild,low,therapy,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+600,37,male,African,Mumbai,Asia/Kolkata,Android,Samsung Watch,14,moderate,low,therapy,2024-01-01,6.2,-7.8,55.71,responder,no,no,maintain,12.0,1,non_responder
+601,53,male,African,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,medium,combined,2024-01-01,11.5,-6.5,36.11,partial_responder,no,no,adjust,,0,partial_responder
+602,45,male,European,Mumbai,Asia/Kolkata,Android,Xiaomi Band,10,moderate,medium,antidepressant,2024-01-01,3.3,-6.7,67.0,responder,yes,no,maintain,10.0,1,non_responder
+603,59,female,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,11,moderate,low,therapy,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+604,47,female,South Asian,Berlin,Europe/Berlin,Android,Garmin,19,moderately_severe,low,therapy,2024-01-01,13.2,-5.8,30.53,partial_responder,no,no,maintain,,0,partial_responder
+605,61,female,South Asian,London,Europe/London,iOS,Garmin,18,moderately_severe,medium,antidepressant,2024-01-01,15.8,-2.2,12.22,non_responder,no,no,adjust,,0,non_responder
+606,60,female,South Asian,Berlin,Europe/Berlin,iOS,Apple Watch,15,moderately_severe,high,therapy,2024-01-01,14.5,-0.5,3.33,non_responder,no,no,adjust,,0,non_responder
+607,49,male,African,Mumbai,Asia/Kolkata,Android,Fitbit,11,moderate,low,therapy,2024-01-01,9.0,-2.0,18.18,non_responder,no,no,adjust,,0,non_responder
+608,18,female,East Asian,Berlin,Europe/Berlin,Android,Fitbit,12,moderate,medium,antidepressant,2024-01-01,0.0,-12.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+609,26,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,16,moderately_severe,medium,antidepressant,2024-01-01,5.7,-10.3,64.38,responder,no,no,maintain,6.0,1,delayed_responder
+610,26,male,South Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,18,moderately_severe,high,antidepressant,2024-01-01,12.3,-5.7,31.67,partial_responder,no,no,maintain,,0,partial_responder
+611,26,female,Mixed/Other,Mumbai,Asia/Kolkata,Android,Fitbit,18,moderately_severe,high,combined,2024-01-01,12.2,-5.8,32.22,partial_responder,no,no,maintain,,0,unstable_responder
+612,48,female,East Asian,Berlin,Europe/Berlin,iOS,Garmin,13,moderate,medium,combined,2024-01-01,1.5,-11.5,88.46,responder,yes,no,maintain,10.0,1,non_responder
+613,54,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,medium,antidepressant,2024-01-01,12.0,-2.0,14.29,non_responder,no,no,switch,,0,non_responder
+614,35,male,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,14,moderate,medium,combined,2024-01-01,1.2,-12.8,91.43,responder,yes,no,maintain,10.0,1,non_responder
+615,44,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,14,moderate,high,therapy,2024-01-01,7.8,-6.2,44.29,partial_responder,no,no,adjust,,0,unstable_responder
+616,57,female,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,14,moderate,high,combined,2024-01-01,6.0,-8.0,57.14,responder,no,no,maintain,10.0,1,non_responder
+617,32,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,24,severe,medium,therapy,2024-01-01,11.6,-12.4,51.67,responder,no,no,maintain,12.0,1,non_responder
+618,57,female,African,Accra,Africa/Accra,Android,Xiaomi Band,9,mild,medium,antidepressant,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+619,19,male,European,London,Europe/London,Android,Garmin,15,moderately_severe,high,therapy,2024-01-01,9.2,-5.8,38.67,partial_responder,no,no,adjust,,0,unstable_responder
+620,41,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Fitbit,17,moderately_severe,low,combined,2024-01-01,4.0,-13.0,76.47,responder,yes,no,maintain,12.0,1,non_responder
+621,19,male,East Asian,Berlin,Europe/Berlin,Android,Xiaomi Band,11,moderate,high,combined,2024-01-01,3.6,-7.4,67.27,responder,yes,no,maintain,12.0,1,unstable_responder
+622,27,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,23,severe,medium,antidepressant,2024-01-01,19.9,-3.1,13.48,non_responder,no,no,adjust,,0,non_responder
+623,55,female,African,Mumbai,Asia/Kolkata,Android,Samsung Watch,19,moderately_severe,high,combined,2024-01-01,13.6,-5.4,28.42,partial_responder,no,no,adjust,,0,partial_responder
+624,41,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,9,mild,low,antidepressant,2024-01-01,3.6,-5.4,60.0,responder,yes,no,maintain,4.0,0,early_responder
+625,62,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Xiaomi Band,16,moderately_severe,medium,therapy,2024-01-01,11.3,-4.7,29.37,partial_responder,no,no,maintain,,0,partial_responder
+626,56,female,African,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,low,combined,2024-01-01,4.3,-12.7,74.71,responder,yes,no,maintain,8.0,1,delayed_responder
+627,37,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,18,moderately_severe,medium,antidepressant,2024-01-01,12.1,-5.9,32.78,partial_responder,no,no,maintain,,0,partial_responder
+628,30,female,East Asian,London,Europe/London,Android,Fitbit,13,moderate,low,antidepressant,2024-01-01,7.9,-5.1,39.23,partial_responder,no,no,adjust,,0,partial_responder
+629,65,male,African,Nairobi,Africa/Nairobi,Android,Apple Watch,24,severe,high,therapy,2024-01-01,11.7,-12.3,51.25,responder,no,no,maintain,12.0,1,non_responder
+630,34,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,8,mild,low,antidepressant,2024-01-01,0.8,-7.2,90.0,responder,yes,no,maintain,6.0,1,delayed_responder
+631,27,female,Latino/Hispanic,Accra,Africa/Accra,Android,Samsung Watch,12,moderate,medium,therapy,2024-01-01,2.0,-10.0,83.33,responder,yes,no,maintain,6.0,0,non_responder
+632,26,male,South Asian,London,Europe/London,iOS,Garmin,13,moderate,low,antidepressant,2024-01-01,5.5,-7.5,57.69,responder,no,no,maintain,8.0,1,delayed_responder
+633,41,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,15,moderately_severe,medium,combined,2024-01-01,12.8,-2.2,14.67,non_responder,no,no,switch,,0,non_responder
+634,24,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,14,moderate,medium,combined,2024-01-01,7.5,-6.5,46.43,partial_responder,no,no,maintain,,0,partial_responder
+635,30,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,20,severe,medium,combined,2024-01-01,17.8,-2.2,11.0,non_responder,no,no,adjust,,0,non_responder
+636,18,female,European,London,Europe/London,iOS,Samsung Watch,24,severe,low,combined,2024-01-01,10.6,-13.4,55.83,responder,no,no,maintain,12.0,1,non_responder
+637,63,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,22,severe,medium,antidepressant,2024-01-01,8.8,-13.2,60.0,responder,no,no,maintain,12.0,1,non_responder
+638,56,male,European,Accra,Africa/Accra,Android,Fitbit,13,moderate,low,therapy,2024-01-01,2.7,-10.3,79.23,responder,yes,no,maintain,8.0,1,delayed_responder
+639,29,female,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,low,antidepressant,2024-01-01,10.9,-4.1,27.33,partial_responder,no,no,maintain,,0,partial_responder
+640,58,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,18,moderately_severe,low,combined,2024-01-01,8.9,-9.1,50.56,responder,no,no,maintain,12.0,1,non_responder
+641,47,female,South Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,10,moderate,low,therapy,2024-01-01,4.1,-5.9,59.0,responder,yes,no,maintain,8.0,1,delayed_responder
+642,64,female,Mixed/Other,Accra,Africa/Accra,Android,Xiaomi Band,16,moderately_severe,medium,combined,2024-01-01,13.2,-2.8,17.5,non_responder,no,no,switch,,0,non_responder
+643,53,female,South Asian,London,Europe/London,Android,Fitbit,17,moderately_severe,low,antidepressant,2024-01-01,4.1,-12.9,75.88,responder,yes,no,maintain,6.0,1,delayed_responder
+644,27,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,17,moderately_severe,medium,therapy,2024-01-01,7.0,-10.0,58.82,responder,no,no,maintain,10.0,1,non_responder
+645,51,female,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Fitbit,14,moderate,high,antidepressant,2024-01-01,14.0,0.0,0.0,non_responder,no,no,adjust,,0,non_responder
+646,30,male,African,London,Europe/London,Android,Garmin,13,moderate,medium,combined,2024-01-01,0.2,-12.8,98.46,responder,yes,no,maintain,8.0,1,delayed_responder
+647,25,male,African,Berlin,Europe/Berlin,iOS,Apple Watch,22,severe,low,combined,2024-01-01,10.3,-11.7,53.18,responder,no,no,maintain,10.0,1,non_responder
+648,27,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,19,moderately_severe,low,antidepressant,2024-01-01,8.1,-10.9,57.37,responder,no,no,maintain,10.0,1,non_responder
+649,47,male,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,14,moderate,medium,therapy,2024-01-01,11.3,-2.7,19.29,non_responder,no,no,adjust,,0,non_responder
+650,22,female,East Asian,Nairobi,Africa/Nairobi,Android,Fitbit,16,moderately_severe,high,combined,2024-01-01,4.3,-11.7,73.12,responder,yes,no,maintain,8.0,1,delayed_responder
+651,30,female,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Garmin,15,moderately_severe,low,antidepressant,2024-01-01,8.2,-6.8,45.33,partial_responder,no,no,maintain,,0,partial_responder
+652,27,male,European,Nairobi,Africa/Nairobi,Android,Fitbit,12,moderate,low,combined,2024-01-01,6.9,-5.1,42.5,partial_responder,no,no,maintain,,0,partial_responder
+653,41,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,12,moderate,low,antidepressant,2024-01-01,0.0,-12.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+654,27,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,10,moderate,low,antidepressant,2024-01-01,1.4,-8.6,86.0,responder,yes,no,maintain,10.0,1,non_responder
+655,48,female,European,London,Europe/London,Android,Xiaomi Band,17,moderately_severe,high,combined,2024-01-01,5.5,-11.5,67.65,responder,no,no,maintain,8.0,1,delayed_responder
+656,49,female,Latino/Hispanic,London,Europe/London,Android,Fitbit,14,moderate,low,therapy,2024-01-01,6.2,-7.8,55.71,responder,no,no,maintain,12.0,1,non_responder
+657,38,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,19,moderately_severe,medium,combined,2024-01-01,13.4,-5.6,29.47,partial_responder,no,no,adjust,,0,unstable_responder
+658,56,female,African,Berlin,Europe/Berlin,iOS,Samsung Watch,20,severe,medium,combined,2024-01-01,9.3,-10.7,53.5,responder,no,no,maintain,12.0,1,non_responder
+659,32,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,14,moderate,high,therapy,2024-01-01,9.8,-4.2,30.0,partial_responder,no,no,maintain,,0,partial_responder
+660,34,female,European,Berlin,Europe/Berlin,Android,Apple Watch,10,moderate,low,combined,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+661,63,female,European,London,Europe/London,iOS,Xiaomi Band,20,severe,low,therapy,2024-01-01,7.4,-12.6,63.0,responder,no,no,maintain,8.0,1,delayed_responder
+662,26,male,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Garmin,17,moderately_severe,medium,antidepressant,2024-01-01,10.7,-6.3,37.06,partial_responder,no,no,adjust,,0,partial_responder
+663,24,female,African,Mumbai,Asia/Kolkata,Android,Samsung Watch,17,moderately_severe,medium,antidepressant,2024-01-01,14.5,-2.5,14.71,non_responder,no,no,adjust,,0,non_responder
+664,29,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Samsung Watch,8,mild,medium,therapy,2024-01-01,3.2,-4.8,60.0,responder,yes,no,maintain,8.0,0,delayed_responder
+665,55,male,South Asian,Accra,Africa/Accra,Android,Xiaomi Band,10,moderate,low,antidepressant,2024-01-01,2.2,-7.8,78.0,responder,yes,no,maintain,8.0,1,delayed_responder
+666,33,female,East Asian,Berlin,Europe/Berlin,Android,Samsung Watch,14,moderate,low,therapy,2024-01-01,5.5,-8.5,60.71,responder,no,no,maintain,10.0,1,non_responder
+667,53,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,11,moderate,medium,antidepressant,2024-01-01,0.2,-10.8,98.18,responder,yes,no,maintain,8.0,1,delayed_responder
+668,38,female,East Asian,Nairobi,Africa/Nairobi,Android,Fitbit,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+669,40,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,12,moderate,medium,combined,2024-01-01,6.0,-6.0,50.0,responder,no,no,maintain,8.0,0,delayed_responder
+670,48,male,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Apple Watch,15,moderately_severe,low,combined,2024-01-01,10.0,-5.0,33.33,partial_responder,no,no,maintain,,0,unstable_responder
+671,40,male,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,low,combined,2024-01-01,5.2,-8.8,62.86,responder,no,no,maintain,12.0,1,non_responder
+672,49,male,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Fitbit,20,severe,high,antidepressant,2024-01-01,11.6,-8.4,42.0,partial_responder,no,no,maintain,,0,partial_responder
+673,31,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,14,moderate,medium,combined,2024-01-01,9.0,-5.0,35.71,partial_responder,no,no,maintain,,0,partial_responder
+674,30,male,East Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,14,moderate,low,combined,2024-01-01,1.9,-12.1,86.43,responder,yes,no,maintain,6.0,1,delayed_responder
+675,38,male,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Apple Watch,14,moderate,high,therapy,2024-01-01,10.4,-3.6,25.71,partial_responder,no,no,adjust,,0,partial_responder
+676,30,female,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Garmin,13,moderate,low,therapy,2024-01-01,9.0,-4.0,30.77,partial_responder,no,no,maintain,,0,partial_responder
+677,43,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,8,mild,medium,therapy,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+678,58,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,14,moderate,medium,combined,2024-01-01,2.6,-11.4,81.43,responder,yes,no,maintain,6.0,1,delayed_responder
+679,21,female,European,London,Europe/London,iOS,Garmin,10,moderate,medium,combined,2024-01-01,7.6,-2.4,24.0,non_responder,no,no,adjust,,0,non_responder
+680,61,male,African,Accra,Africa/Accra,Android,Fitbit,19,moderately_severe,low,therapy,2024-01-01,7.8,-11.2,58.95,responder,no,no,maintain,8.0,1,delayed_responder
+681,32,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,11,moderate,medium,combined,2024-01-01,0.4,-10.6,96.36,responder,yes,no,maintain,4.0,1,early_responder
+682,38,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,19,moderately_severe,low,combined,2024-01-01,5.5,-13.5,71.05,responder,no,no,maintain,8.0,1,delayed_responder
+683,45,male,European,Nairobi,Africa/Nairobi,iOS,Garmin,16,moderately_severe,medium,combined,2024-01-01,8.3,-7.7,48.12,partial_responder,no,no,maintain,,0,partial_responder
+684,47,male,East Asian,London,Europe/London,Android,Xiaomi Band,10,moderate,medium,combined,2024-01-01,4.8,-5.2,52.0,responder,yes,no,maintain,12.0,1,non_responder
+685,48,male,East Asian,Berlin,Europe/Berlin,iOS,Xiaomi Band,19,moderately_severe,medium,antidepressant,2024-01-01,15.2,-3.8,20.0,non_responder,no,no,switch,,0,non_responder
+686,54,male,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,14,moderate,medium,combined,2024-01-01,11.4,-2.6,18.57,non_responder,no,no,adjust,,0,non_responder
+687,56,male,Latino/Hispanic,Accra,Africa/Accra,Android,Samsung Watch,16,moderately_severe,low,combined,2024-01-01,10.1,-5.9,36.88,partial_responder,no,no,maintain,,0,partial_responder
+688,22,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,18,moderately_severe,medium,therapy,2024-01-01,14.3,-3.7,20.56,non_responder,no,no,adjust,,0,non_responder
+689,18,female,European,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,high,combined,2024-01-01,5.5,-8.5,60.71,responder,no,no,maintain,8.0,1,delayed_responder
+690,31,female,African,Mumbai,Asia/Kolkata,Android,Garmin,18,moderately_severe,high,combined,2024-01-01,17.0,-1.0,5.56,non_responder,no,no,adjust,,0,non_responder
+691,65,male,African,Mumbai,Asia/Kolkata,Android,Garmin,13,moderate,medium,combined,2024-01-01,7.8,-5.2,40.0,partial_responder,no,no,adjust,,0,partial_responder
+692,39,female,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,14,moderate,medium,combined,2024-01-01,3.3,-10.7,76.43,responder,yes,no,maintain,10.0,1,non_responder
+693,45,male,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,8,mild,medium,therapy,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+694,64,female,European,Mumbai,Asia/Kolkata,Android,Samsung Watch,15,moderately_severe,medium,antidepressant,2024-01-01,4.5,-10.5,70.0,responder,yes,no,maintain,8.0,1,delayed_responder
+695,57,male,African,Berlin,Europe/Berlin,Android,Apple Watch,21,severe,medium,therapy,2024-01-01,16.3,-4.7,22.38,non_responder,no,no,adjust,,0,non_responder
+696,60,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,14,moderate,high,combined,2024-01-01,8.4,-5.6,40.0,partial_responder,no,no,maintain,,0,partial_responder
+697,57,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,13,moderate,medium,combined,2024-01-01,6.6,-6.4,49.23,partial_responder,no,no,maintain,,0,partial_responder
+698,42,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,21,severe,medium,antidepressant,2024-01-01,7.3,-13.7,65.24,responder,no,no,maintain,10.0,1,non_responder
+699,45,female,African,Mumbai,Asia/Kolkata,Android,Fitbit,17,moderately_severe,low,therapy,2024-01-01,5.1,-11.9,70.0,responder,no,no,maintain,12.0,1,non_responder
+700,58,female,African,Mumbai,Asia/Kolkata,Android,Samsung Watch,10,moderate,medium,therapy,2024-01-01,2.4,-7.6,76.0,responder,yes,no,maintain,8.0,1,delayed_responder
+701,46,female,Middle Eastern/North African,London,Europe/London,Android,Fitbit,11,moderate,medium,combined,2024-01-01,0.7,-10.3,93.64,responder,yes,no,maintain,6.0,1,delayed_responder
+702,36,female,European,Accra,Africa/Accra,iOS,Xiaomi Band,8,mild,high,combined,2024-01-01,4.6,-3.4,42.5,partial_responder,yes,no,maintain,,0,partial_responder
+703,29,female,African,London,Europe/London,Android,Apple Watch,18,moderately_severe,low,antidepressant,2024-01-01,6.7,-11.3,62.78,responder,no,no,maintain,8.0,1,delayed_responder
+704,53,female,European,Accra,Africa/Accra,Android,Xiaomi Band,18,moderately_severe,low,therapy,2024-01-01,6.1,-11.9,66.11,responder,no,no,maintain,8.0,1,delayed_responder
+705,54,male,East Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,16,moderately_severe,medium,combined,2024-01-01,13.3,-2.7,16.87,non_responder,no,no,adjust,,0,non_responder
+706,25,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,13,moderate,low,combined,2024-01-01,2.5,-10.5,80.77,responder,yes,no,maintain,6.0,1,delayed_responder
+707,22,female,Mixed/Other,Berlin,Europe/Berlin,iOS,Apple Watch,16,moderately_severe,low,therapy,2024-01-01,4.2,-11.8,73.75,responder,yes,no,maintain,8.0,1,delayed_responder
+708,30,male,African,Nairobi,Africa/Nairobi,iOS,Samsung Watch,18,moderately_severe,low,combined,2024-01-01,5.0,-13.0,72.22,responder,no,no,maintain,10.0,1,non_responder
+709,42,male,European,Mumbai,Asia/Kolkata,Android,Garmin,8,mild,high,combined,2024-01-01,2.8,-5.2,65.0,responder,yes,no,maintain,12.0,1,unstable_responder
+710,42,male,Latino/Hispanic,London,Europe/London,iOS,Garmin,11,moderate,medium,combined,2024-01-01,0.9,-10.1,91.82,responder,yes,no,maintain,4.0,1,early_responder
+711,61,male,Mixed/Other,Accra,Africa/Accra,iOS,Samsung Watch,8,mild,medium,therapy,2024-01-01,4.4,-3.6,45.0,partial_responder,yes,no,maintain,,0,unstable_responder
+712,34,female,European,London,Europe/London,iOS,Apple Watch,14,moderate,high,therapy,2024-01-01,7.4,-6.6,47.14,partial_responder,no,no,adjust,,0,partial_responder
+713,18,female,European,London,Europe/London,iOS,Apple Watch,10,moderate,low,combined,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+714,53,female,South Asian,London,Europe/London,iOS,Samsung Watch,18,moderately_severe,medium,combined,2024-01-01,8.4,-9.6,53.33,responder,no,no,maintain,10.0,1,non_responder
+715,29,female,European,London,Europe/London,Android,Apple Watch,16,moderately_severe,medium,combined,2024-01-01,3.9,-12.1,75.62,responder,yes,no,maintain,6.0,1,delayed_responder
+716,41,male,East Asian,London,Europe/London,Android,Apple Watch,23,severe,medium,combined,2024-01-01,20.3,-2.7,11.74,non_responder,no,no,adjust,,0,non_responder
+717,31,male,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Garmin,21,severe,low,antidepressant,2024-01-01,13.4,-7.6,36.19,partial_responder,no,no,adjust,,0,partial_responder
+718,37,male,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,12,moderate,low,antidepressant,2024-01-01,2.8,-9.2,76.67,responder,yes,no,maintain,10.0,1,non_responder
+719,43,female,European,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Samsung Watch,14,moderate,medium,combined,2024-01-01,13.4,-0.6,4.29,non_responder,no,no,adjust,,0,non_responder
+720,22,male,East Asian,Nairobi,Africa/Nairobi,Android,Apple Watch,20,severe,high,therapy,2024-01-01,16.5,-3.5,17.5,non_responder,no,no,adjust,,0,non_responder
+721,45,male,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,13,moderate,low,combined,2024-01-01,10.7,-2.3,17.69,non_responder,no,no,switch,,0,non_responder
+722,19,female,European,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,low,combined,2024-01-01,3.4,-12.6,78.75,responder,yes,no,maintain,10.0,1,non_responder
+723,47,male,East Asian,Berlin,Europe/Berlin,Android,Garmin,17,moderately_severe,medium,therapy,2024-01-01,9.5,-7.5,44.12,partial_responder,no,no,adjust,,0,partial_responder
+724,18,female,East Asian,Berlin,Europe/Berlin,iOS,Fitbit,8,mild,medium,therapy,2024-01-01,5.1,-2.9,36.25,partial_responder,no,no,maintain,,0,unstable_responder
+725,37,male,African,Nairobi,Africa/Nairobi,Android,Garmin,13,moderate,low,combined,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+726,60,female,East Asian,Accra,Africa/Accra,Android,Fitbit,13,moderate,medium,therapy,2024-01-01,4.0,-9.0,69.23,responder,yes,no,maintain,6.0,0,non_responder
+727,18,female,East Asian,London,Europe/London,iOS,Apple Watch,9,mild,low,antidepressant,2024-01-01,3.8,-5.2,57.78,responder,yes,no,maintain,12.0,1,non_responder
+728,62,male,East Asian,London,Europe/London,iOS,Garmin,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+729,23,female,South Asian,Berlin,Europe/Berlin,iOS,Apple Watch,13,moderate,medium,combined,2024-01-01,8.5,-4.5,34.62,partial_responder,no,no,maintain,,0,unstable_responder
+730,27,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,11,moderate,medium,therapy,2024-01-01,7.3,-3.7,33.64,partial_responder,no,no,adjust,,0,partial_responder
+731,48,female,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Fitbit,18,moderately_severe,medium,therapy,2024-01-01,12.3,-5.7,31.67,partial_responder,no,no,adjust,,0,unstable_responder
+732,54,male,European,Nairobi,Africa/Nairobi,Android,Fitbit,16,moderately_severe,low,combined,2024-01-01,7.6,-8.4,52.5,responder,no,no,maintain,12.0,1,non_responder
+733,29,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,15,moderately_severe,low,combined,2024-01-01,6.2,-8.8,58.67,responder,no,no,maintain,12.0,1,non_responder
+734,58,female,South Asian,Berlin,Europe/Berlin,Android,Fitbit,17,moderately_severe,medium,combined,2024-01-01,5.1,-11.9,70.0,responder,no,no,maintain,10.0,1,non_responder
+735,64,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,13,moderate,high,combined,2024-01-01,10.7,-2.3,17.69,non_responder,no,no,switch,,0,non_responder
+736,34,female,South Asian,London,Europe/London,Android,Apple Watch,19,moderately_severe,medium,combined,2024-01-01,8.9,-10.1,53.16,responder,no,no,maintain,10.0,1,non_responder
+737,33,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,11,moderate,high,combined,2024-01-01,8.5,-2.5,22.73,non_responder,no,no,adjust,,0,non_responder
+738,29,male,African,Nairobi,Africa/Nairobi,Android,Fitbit,16,moderately_severe,medium,combined,2024-01-01,6.7,-9.3,58.13,responder,no,no,maintain,10.0,1,non_responder
+739,56,male,African,Accra,Africa/Accra,Android,Samsung Watch,13,moderate,low,combined,2024-01-01,10.5,-2.5,19.23,non_responder,no,no,adjust,,0,non_responder
+740,56,female,Latino/Hispanic,London,Europe/London,Android,Apple Watch,22,severe,low,combined,2024-01-01,8.2,-13.8,62.73,responder,no,no,maintain,12.0,1,non_responder
+741,21,male,European,Nairobi,Africa/Nairobi,Android,Xiaomi Band,15,moderately_severe,high,therapy,2024-01-01,4.0,-11.0,73.33,responder,yes,no,maintain,10.0,1,non_responder
+742,50,female,African,Berlin,Europe/Berlin,Android,Apple Watch,17,moderately_severe,low,combined,2024-01-01,8.1,-8.9,52.35,responder,no,no,maintain,12.0,1,unstable_responder
+743,42,male,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,18,moderately_severe,medium,combined,2024-01-01,7.2,-10.8,60.0,responder,no,no,maintain,8.0,1,delayed_responder
+744,64,male,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,20,severe,low,antidepressant,2024-01-01,8.4,-11.6,58.0,responder,no,no,maintain,12.0,1,non_responder
+745,62,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,medium,therapy,2024-01-01,6.3,-9.7,60.62,responder,no,no,maintain,10.0,1,non_responder
+746,46,female,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,16,moderately_severe,low,combined,2024-01-01,10.8,-5.2,32.5,partial_responder,no,no,adjust,,0,partial_responder
+747,58,female,European,Mumbai,Asia/Kolkata,Android,Apple Watch,16,moderately_severe,medium,combined,2024-01-01,2.5,-13.5,84.38,responder,yes,no,maintain,6.0,1,delayed_responder
+748,31,female,European,London,Europe/London,Android,Apple Watch,11,moderate,medium,therapy,2024-01-01,5.7,-5.3,48.18,partial_responder,no,no,maintain,,0,unstable_responder
+749,64,female,East Asian,London,Europe/London,Android,Apple Watch,12,moderate,low,combined,2024-01-01,0.0,-12.0,100.0,responder,yes,no,maintain,4.0,0,early_responder
+750,57,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Fitbit,18,moderately_severe,high,antidepressant,2024-01-01,5.9,-12.1,67.22,responder,no,no,maintain,10.0,1,non_responder
+751,40,female,East Asian,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,17,moderately_severe,medium,antidepressant,2024-01-01,15.8,-1.2,7.06,non_responder,no,no,adjust,,0,non_responder
+752,21,female,European,Nairobi,Africa/Nairobi,Android,Garmin,11,moderate,high,therapy,2024-01-01,5.0,-6.0,54.55,responder,no,no,maintain,12.0,1,non_responder
+753,27,female,Mixed/Other,Accra,Africa/Accra,Android,Xiaomi Band,12,moderate,high,therapy,2024-01-01,4.2,-7.8,65.0,responder,yes,no,maintain,12.0,1,non_responder
+754,63,male,Latino/Hispanic,Berlin,Europe/Berlin,iOS,Apple Watch,20,severe,low,combined,2024-01-01,11.8,-8.2,41.0,partial_responder,no,no,adjust,,0,partial_responder
+755,39,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Samsung Watch,13,moderate,low,combined,2024-01-01,1.2,-11.8,90.77,responder,yes,no,maintain,4.0,1,early_responder
+756,40,male,European,Berlin,Europe/Berlin,iOS,Xiaomi Band,9,mild,medium,antidepressant,2024-01-01,4.9,-4.1,45.56,partial_responder,yes,no,adjust,,0,partial_responder
+757,64,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Fitbit,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+758,55,male,Mixed/Other,Mumbai,Asia/Kolkata,Android,Samsung Watch,13,moderate,medium,therapy,2024-01-01,3.3,-9.7,74.62,responder,yes,no,maintain,4.0,1,early_responder
+759,58,male,East Asian,Nairobi,Africa/Nairobi,Android,Samsung Watch,13,moderate,low,antidepressant,2024-01-01,6.1,-6.9,53.08,responder,no,no,maintain,12.0,1,non_responder
+760,44,male,South Asian,Berlin,Europe/Berlin,iOS,Fitbit,12,moderate,low,combined,2024-01-01,3.6,-8.4,70.0,responder,yes,no,maintain,12.0,1,non_responder
+761,49,male,African,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,12,moderate,high,combined,2024-01-01,0.6,-11.4,95.0,responder,yes,no,maintain,6.0,1,delayed_responder
+762,45,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,13,moderate,medium,antidepressant,2024-01-01,6.8,-6.2,47.69,partial_responder,no,no,maintain,,0,partial_responder
+763,25,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,iOS,Samsung Watch,15,moderately_severe,medium,combined,2024-01-01,11.8,-3.2,21.33,non_responder,no,no,switch,,0,non_responder
+764,48,male,East Asian,Nairobi,Africa/Nairobi,iOS,Apple Watch,14,moderate,low,therapy,2024-01-01,2.7,-11.3,80.71,responder,yes,no,maintain,10.0,1,non_responder
+765,47,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Fitbit,15,moderately_severe,low,combined,2024-01-01,2.1,-12.9,86.0,responder,yes,no,maintain,8.0,1,delayed_responder
+766,55,female,South Asian,Accra,Africa/Accra,Android,Xiaomi Band,13,moderate,medium,combined,2024-01-01,10.6,-2.4,18.46,non_responder,no,no,adjust,,0,non_responder
+767,37,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,13,moderate,medium,antidepressant,2024-01-01,7.6,-5.4,41.54,partial_responder,no,no,adjust,,0,unstable_responder
+768,28,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Fitbit,14,moderate,medium,antidepressant,2024-01-01,9.9,-4.1,29.29,partial_responder,no,no,maintain,,0,unstable_responder
+769,18,male,South Asian,London,Europe/London,Android,Xiaomi Band,17,moderately_severe,medium,combined,2024-01-01,6.0,-11.0,64.71,responder,no,no,maintain,10.0,1,non_responder
+770,31,female,African,Mumbai,Asia/Kolkata,Android,Apple Watch,17,moderately_severe,medium,antidepressant,2024-01-01,4.9,-12.1,71.18,responder,yes,no,maintain,12.0,1,non_responder
+771,46,male,African,Mumbai,Asia/Kolkata,Android,Fitbit,21,severe,low,combined,2024-01-01,19.3,-1.7,8.1,non_responder,no,no,adjust,,0,non_responder
+772,58,female,Middle Eastern/North African,Berlin,Europe/Berlin,iOS,Fitbit,19,moderately_severe,medium,therapy,2024-01-01,11.4,-7.6,40.0,partial_responder,no,no,maintain,,0,partial_responder
+773,46,female,European,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Fitbit,9,mild,medium,combined,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+774,21,female,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Apple Watch,14,moderate,low,therapy,2024-01-01,7.7,-6.3,45.0,partial_responder,no,no,maintain,,0,partial_responder
+775,50,female,European,Mumbai,Asia/Kolkata,Android,Fitbit,10,moderate,medium,combined,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+776,22,female,European,Accra,Africa/Accra,iOS,Apple Watch,16,moderately_severe,low,antidepressant,2024-01-01,9.6,-6.4,40.0,partial_responder,no,no,maintain,,0,partial_responder
+777,39,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,20,severe,low,combined,2024-01-01,12.0,-8.0,40.0,partial_responder,no,no,maintain,,0,partial_responder
+778,55,female,Latino/Hispanic,Accra,Africa/Accra,Android,Fitbit,19,moderately_severe,low,combined,2024-01-01,6.0,-13.0,68.42,responder,no,no,maintain,10.0,1,non_responder
+779,21,female,African,Accra,Africa/Accra,Android,Garmin,25,severe,high,antidepressant,2024-01-01,22.4,-2.6,10.4,non_responder,no,no,switch,,0,non_responder
+780,28,male,African,London,Europe/London,iOS,Xiaomi Band,15,moderately_severe,medium,combined,2024-01-01,1.4,-13.6,90.67,responder,yes,no,maintain,8.0,1,delayed_responder
+781,47,male,African,Berlin,Europe/Berlin,Android,Apple Watch,13,moderate,low,combined,2024-01-01,0.0,-13.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+782,26,male,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,13,moderate,medium,combined,2024-01-01,1.2,-11.8,90.77,responder,yes,no,maintain,10.0,1,non_responder
+783,40,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,14,moderate,high,therapy,2024-01-01,7.9,-6.1,43.57,partial_responder,no,no,adjust,,0,partial_responder
+784,44,male,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Fitbit,12,moderate,medium,combined,2024-01-01,9.3,-2.7,22.5,non_responder,no,no,adjust,,0,non_responder
+785,63,male,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,15,moderately_severe,medium,therapy,2024-01-01,9.2,-5.8,38.67,partial_responder,no,no,maintain,,0,partial_responder
+786,60,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,2.0,1,early_responder
+787,45,female,Middle Eastern/North African,Berlin,Europe/Berlin,Android,Fitbit,13,moderate,high,combined,2024-01-01,6.6,-6.4,49.23,partial_responder,no,no,maintain,,0,partial_responder
+788,19,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,14,moderate,high,combined,2024-01-01,3.4,-10.6,75.71,responder,yes,no,maintain,6.0,1,delayed_responder
+789,62,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,low,antidepressant,2024-01-01,7.3,-7.7,51.33,responder,no,no,maintain,12.0,1,non_responder
+790,49,male,African,Berlin,Europe/Berlin,Android,Fitbit,20,severe,medium,antidepressant,2024-01-01,12.3,-7.7,38.5,partial_responder,no,no,adjust,,0,partial_responder
+791,63,male,European,Berlin,Europe/Berlin,Android,Apple Watch,15,moderately_severe,low,combined,2024-01-01,2.1,-12.9,86.0,responder,yes,no,maintain,6.0,1,delayed_responder
+792,43,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,27,severe,high,antidepressant,2024-01-01,24.6,-2.4,8.89,non_responder,no,no,switch,,0,non_responder
+793,38,female,Latino/Hispanic,Berlin,Europe/Berlin,Android,Apple Watch,17,moderately_severe,high,combined,2024-01-01,15.6,-1.4,8.24,non_responder,no,no,adjust,,0,non_responder
+794,46,female,African,Nairobi,Africa/Nairobi,Android,Fitbit,23,severe,low,antidepressant,2024-01-01,18.2,-4.8,20.87,non_responder,no,no,adjust,,0,non_responder
+795,53,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,18,moderately_severe,medium,antidepressant,2024-01-01,13.1,-4.9,27.22,partial_responder,no,no,maintain,,0,unstable_responder
+796,25,male,European,Berlin,Europe/Berlin,iOS,Samsung Watch,11,moderate,low,combined,2024-01-01,5.3,-5.7,51.82,responder,no,no,maintain,12.0,1,non_responder
+797,35,female,South Asian,London,Europe/London,iOS,Garmin,12,moderate,low,antidepressant,2024-01-01,4.6,-7.4,61.67,responder,yes,no,maintain,8.0,1,delayed_responder
+798,24,female,Mixed/Other,London,Europe/London,iOS,Fitbit,17,moderately_severe,medium,combined,2024-01-01,5.5,-11.5,67.65,responder,no,no,maintain,12.0,1,non_responder
+799,33,female,European,Nairobi,Africa/Nairobi,iOS,Fitbit,16,moderately_severe,high,antidepressant,2024-01-01,4.3,-11.7,73.12,responder,yes,no,maintain,10.0,1,non_responder
+800,61,female,Mixed/Other,London,Europe/London,Android,Fitbit,17,moderately_severe,low,therapy,2024-01-01,4.3,-12.7,74.71,responder,yes,no,maintain,10.0,1,non_responder
+801,32,male,South Asian,London,Europe/London,iOS,Apple Watch,16,moderately_severe,medium,combined,2024-01-01,6.7,-9.3,58.13,responder,no,no,maintain,12.0,1,unstable_responder
+802,44,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,high,therapy,2024-01-01,10.7,-3.3,23.57,non_responder,no,no,switch,,0,non_responder
+803,65,female,East Asian,Berlin,Europe/Berlin,iOS,Garmin,10,moderate,medium,antidepressant,2024-01-01,4.8,-5.2,52.0,responder,yes,no,maintain,4.0,0,early_responder
+804,48,male,African,Berlin,Europe/Berlin,Android,Fitbit,14,moderate,high,therapy,2024-01-01,2.8,-11.2,80.0,responder,yes,no,maintain,12.0,1,non_responder
+805,65,male,African,Mumbai,Asia/Kolkata,iOS,Samsung Watch,16,moderately_severe,medium,combined,2024-01-01,5.2,-10.8,67.5,responder,no,no,maintain,10.0,1,non_responder
+806,53,male,European,Nairobi,Africa/Nairobi,Android,Xiaomi Band,17,moderately_severe,medium,therapy,2024-01-01,6.0,-11.0,64.71,responder,no,no,maintain,10.0,1,non_responder
+807,49,female,African,Berlin,Europe/Berlin,Android,Garmin,8,mild,high,therapy,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+808,29,female,African,Mumbai,Asia/Kolkata,iOS,Fitbit,9,mild,low,antidepressant,2024-01-01,1.2,-7.8,86.67,responder,yes,no,maintain,12.0,1,non_responder
+809,58,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,16,moderately_severe,medium,antidepressant,2024-01-01,3.8,-12.2,76.25,responder,yes,no,maintain,10.0,1,non_responder
+810,60,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,8,mild,high,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+811,35,female,African,Nairobi,Africa/Nairobi,Android,Apple Watch,8,mild,low,combined,2024-01-01,2.1,-5.9,73.75,responder,yes,no,maintain,4.0,1,early_responder
+812,27,female,European,Mumbai,Asia/Kolkata,Android,Garmin,14,moderate,low,therapy,2024-01-01,9.9,-4.1,29.29,partial_responder,no,no,adjust,,0,partial_responder
+813,23,female,East Asian,Nairobi,Africa/Nairobi,iOS,Fitbit,19,moderately_severe,high,combined,2024-01-01,19.4,0.4,-2.11,non_responder,no,no,adjust,,0,non_responder
+814,57,male,Latino/Hispanic,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,20,severe,medium,therapy,2024-01-01,11.8,-8.2,41.0,partial_responder,no,no,adjust,,0,partial_responder
+815,58,female,European,Berlin,Europe/Berlin,iOS,Apple Watch,14,moderate,medium,antidepressant,2024-01-01,2.9,-11.1,79.29,responder,yes,no,maintain,6.0,1,delayed_responder
+816,63,male,East Asian,Accra,Africa/Accra,Android,Fitbit,12,moderate,medium,antidepressant,2024-01-01,0.6,-11.4,95.0,responder,yes,no,maintain,8.0,1,delayed_responder
+817,24,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,low,antidepressant,2024-01-01,1.1,-12.9,92.14,responder,yes,no,maintain,6.0,1,delayed_responder
+818,44,female,East Asian,Accra,Africa/Accra,Android,Xiaomi Band,16,moderately_severe,medium,combined,2024-01-01,8.4,-7.6,47.5,partial_responder,no,no,maintain,,0,partial_responder
+819,56,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,low,combined,2024-01-01,10.1,-3.9,27.86,partial_responder,no,no,maintain,,0,partial_responder
+820,26,female,African,London,Europe/London,Android,Fitbit,14,moderate,high,combined,2024-01-01,4.0,-10.0,71.43,responder,yes,no,maintain,10.0,1,non_responder
+821,24,male,Middle Eastern/North African,Berlin,Europe/Berlin,iOS,Samsung Watch,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+822,23,male,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,16,moderately_severe,low,therapy,2024-01-01,2.4,-13.6,85.0,responder,yes,no,maintain,6.0,1,delayed_responder
+823,57,female,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,8,mild,low,antidepressant,2024-01-01,4.7,-3.3,41.25,partial_responder,yes,no,maintain,,0,unstable_responder
+824,65,female,Latino/Hispanic,London,Europe/London,Android,Garmin,10,moderate,medium,combined,2024-01-01,5.0,-5.0,50.0,responder,no,no,maintain,8.0,1,delayed_responder
+825,33,male,African,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Samsung Watch,24,severe,low,antidepressant,2024-01-01,10.3,-13.7,57.08,responder,no,no,maintain,12.0,1,non_responder
+826,31,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,19,moderately_severe,medium,antidepressant,2024-01-01,11.8,-7.2,37.89,partial_responder,no,no,maintain,,0,partial_responder
+827,61,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,21,severe,medium,combined,2024-01-01,21.0,0.0,0.0,non_responder,no,no,adjust,,0,non_responder
+828,61,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,19,moderately_severe,medium,therapy,2024-01-01,15.9,-3.1,16.32,non_responder,no,no,switch,,0,non_responder
+829,40,female,European,London,Europe/London,Android,Samsung Watch,19,moderately_severe,low,therapy,2024-01-01,10.8,-8.2,43.16,partial_responder,no,no,maintain,,0,partial_responder
+830,65,male,African,London,Europe/London,iOS,Apple Watch,12,moderate,high,therapy,2024-01-01,6.5,-5.5,45.83,partial_responder,no,no,maintain,,0,partial_responder
+831,56,female,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Garmin,15,moderately_severe,high,combined,2024-01-01,5.3,-9.7,64.67,responder,no,no,maintain,12.0,1,non_responder
+832,19,female,European,London,Europe/London,Android,Fitbit,10,moderate,low,combined,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+833,24,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,12,moderate,low,combined,2024-01-01,2.9,-9.1,75.83,responder,yes,no,maintain,10.0,1,non_responder
+834,52,female,East Asian,Berlin,Europe/Berlin,iOS,Xiaomi Band,8,mild,low,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+835,46,male,Middle Eastern/North African,London,Europe/London,Android,Samsung Watch,21,severe,medium,antidepressant,2024-01-01,12.3,-8.7,41.43,partial_responder,no,no,maintain,,0,partial_responder
+836,65,male,African,Nairobi,Africa/Nairobi,Android,Fitbit,15,moderately_severe,high,combined,2024-01-01,3.4,-11.6,77.33,responder,yes,no,maintain,6.0,0,non_responder
+837,31,male,Mixed/Other,London,Europe/London,Android,Fitbit,10,moderate,low,combined,2024-01-01,2.8,-7.2,72.0,responder,yes,no,maintain,8.0,1,delayed_responder
+838,25,female,Middle Eastern/North African,London,Europe/London,Android,Xiaomi Band,20,severe,low,therapy,2024-01-01,12.9,-7.1,35.5,partial_responder,no,no,adjust,,0,partial_responder
+839,26,male,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,23,severe,high,combined,2024-01-01,20.0,-3.0,13.04,non_responder,no,no,adjust,,0,non_responder
+840,26,female,African,Nairobi,Africa/Nairobi,Android,Xiaomi Band,10,moderate,medium,therapy,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+841,25,male,African,Nairobi,Africa/Nairobi,Android,Fitbit,14,moderate,medium,combined,2024-01-01,9.8,-4.2,30.0,partial_responder,no,no,maintain,,0,unstable_responder
+842,58,male,African,Nairobi,Africa/Nairobi,Android,Xiaomi Band,19,moderately_severe,high,antidepressant,2024-01-01,13.4,-5.6,29.47,partial_responder,no,no,maintain,,0,partial_responder
+843,54,female,African,Berlin,Europe/Berlin,Android,Apple Watch,13,moderate,medium,combined,2024-01-01,0.6,-12.4,95.38,responder,yes,no,maintain,8.0,1,delayed_responder
+844,42,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,16,moderately_severe,low,therapy,2024-01-01,3.8,-12.2,76.25,responder,yes,no,maintain,10.0,1,non_responder
+845,26,female,Mixed/Other,London,Europe/London,Android,Apple Watch,16,moderately_severe,medium,antidepressant,2024-01-01,8.5,-7.5,46.88,partial_responder,no,no,adjust,,0,unstable_responder
+846,35,female,African,London,Europe/London,Android,Fitbit,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+847,46,female,East Asian,Nairobi,Africa/Nairobi,Android,Fitbit,20,severe,high,antidepressant,2024-01-01,11.8,-8.2,41.0,partial_responder,no,no,adjust,,0,partial_responder
+848,62,male,Latino/Hispanic,London,Europe/London,Android,Apple Watch,16,moderately_severe,low,antidepressant,2024-01-01,5.5,-10.5,65.62,responder,no,no,maintain,10.0,1,non_responder
+849,61,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,8,mild,medium,therapy,2024-01-01,6.3,-1.7,21.25,non_responder,no,no,adjust,,0,non_responder
+850,36,female,African,London,Europe/London,iOS,Garmin,13,moderate,medium,therapy,2024-01-01,4.9,-8.1,62.31,responder,yes,no,maintain,12.0,1,non_responder
+851,37,female,East Asian,London,Europe/London,iOS,Fitbit,12,moderate,low,antidepressant,2024-01-01,7.3,-4.7,39.17,partial_responder,no,no,maintain,,0,partial_responder
+852,32,male,Mixed/Other,Nairobi,Africa/Nairobi,Android,Garmin,14,moderate,high,antidepressant,2024-01-01,3.7,-10.3,73.57,responder,yes,no,maintain,10.0,1,non_responder
+853,18,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,15,moderately_severe,high,combined,2024-01-01,10.3,-4.7,31.33,partial_responder,no,no,adjust,,0,partial_responder
+854,61,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,15,moderately_severe,low,combined,2024-01-01,9.6,-5.4,36.0,partial_responder,no,no,adjust,,0,partial_responder
+855,65,female,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,10,moderate,medium,therapy,2024-01-01,0.4,-9.6,96.0,responder,yes,no,maintain,8.0,1,delayed_responder
+856,51,female,European,London,Europe/London,Android,Apple Watch,17,moderately_severe,medium,combined,2024-01-01,8.5,-8.5,50.0,responder,no,no,maintain,12.0,1,unstable_responder
+857,25,male,African,Nairobi,Africa/Nairobi,iOS,Apple Watch,13,moderate,medium,combined,2024-01-01,1.0,-12.0,92.31,responder,yes,no,maintain,4.0,1,early_responder
+858,29,male,European,Accra,Africa/Accra,Android,Xiaomi Band,9,mild,medium,combined,2024-01-01,0.0,-9.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+859,48,male,European,Nairobi,Africa/Nairobi,Android,Xiaomi Band,11,moderate,medium,antidepressant,2024-01-01,9.2,-1.8,16.36,non_responder,no,no,adjust,,0,non_responder
+860,31,female,African,London,Europe/London,Android,Apple Watch,15,moderately_severe,high,combined,2024-01-01,11.5,-3.5,23.33,non_responder,no,no,adjust,,0,non_responder
+861,21,male,African,Mumbai,Asia/Kolkata,Android,Garmin,16,moderately_severe,medium,combined,2024-01-01,14.1,-1.9,11.88,non_responder,no,no,adjust,,0,non_responder
+862,32,male,East Asian,London,Europe/London,Android,Garmin,16,moderately_severe,low,combined,2024-01-01,12.5,-3.5,21.88,non_responder,no,no,adjust,,0,non_responder
+863,20,female,South Asian,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,20,severe,high,combined,2024-01-01,14.0,-6.0,30.0,partial_responder,no,no,maintain,,0,unstable_responder
+864,28,male,African,Nairobi,Africa/Nairobi,Android,Xiaomi Band,19,moderately_severe,medium,combined,2024-01-01,7.0,-12.0,63.16,responder,no,no,maintain,12.0,1,non_responder
+865,28,male,Middle Eastern/North African,Accra,Africa/Accra,Android,Garmin,15,moderately_severe,medium,combined,2024-01-01,6.8,-8.2,54.67,responder,no,no,maintain,12.0,1,non_responder
+866,28,male,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Fitbit,16,moderately_severe,medium,antidepressant,2024-01-01,10.7,-5.3,33.13,partial_responder,no,no,maintain,,0,partial_responder
+867,62,male,African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,medium,combined,2024-01-01,5.9,-8.1,57.86,responder,no,no,maintain,12.0,1,non_responder
+868,37,male,East Asian,Berlin,Europe/Berlin,iOS,Apple Watch,12,moderate,medium,combined,2024-01-01,0.1,-11.9,99.17,responder,yes,no,maintain,4.0,1,early_responder
+869,21,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,18,moderately_severe,low,therapy,2024-01-01,3.3,-14.7,81.67,responder,yes,no,maintain,10.0,1,non_responder
+870,45,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,12,moderate,medium,antidepressant,2024-01-01,2.0,-10.0,83.33,responder,yes,no,maintain,6.0,1,delayed_responder
+871,21,male,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,17,moderately_severe,high,therapy,2024-01-01,5.2,-11.8,69.41,responder,no,no,maintain,10.0,1,non_responder
+872,48,female,East Asian,London,Europe/London,iOS,Apple Watch,20,severe,low,combined,2024-01-01,7.5,-12.5,62.5,responder,no,no,maintain,8.0,1,delayed_responder
+873,27,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,13,moderate,high,combined,2024-01-01,2.2,-10.8,83.08,responder,yes,no,maintain,8.0,1,delayed_responder
+874,21,female,South Asian,Accra,Africa/Accra,Android,Samsung Watch,8,mild,low,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+875,58,male,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,19,moderately_severe,low,antidepressant,2024-01-01,13.8,-5.2,27.37,partial_responder,no,no,maintain,,0,partial_responder
+876,63,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,10,moderate,medium,therapy,2024-01-01,4.0,-6.0,60.0,responder,yes,no,maintain,12.0,1,non_responder
+877,20,female,European,Mumbai,Asia/Kolkata,iOS,Apple Watch,19,moderately_severe,low,combined,2024-01-01,7.0,-12.0,63.16,responder,no,no,maintain,10.0,1,non_responder
+878,40,female,African,Nairobi,Africa/Nairobi,Android,Samsung Watch,17,moderately_severe,medium,combined,2024-01-01,15.8,-1.2,7.06,non_responder,no,no,switch,,0,non_responder
+879,41,female,Mixed/Other,Berlin,Europe/Berlin,iOS,Fitbit,18,moderately_severe,medium,combined,2024-01-01,16.4,-1.6,8.89,non_responder,no,no,switch,,0,non_responder
+880,33,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,18,moderately_severe,low,antidepressant,2024-01-01,7.1,-10.9,60.56,responder,no,no,maintain,10.0,1,non_responder
+881,50,female,South Asian,Accra,Africa/Accra,Android,Fitbit,12,moderate,low,combined,2024-01-01,4.2,-7.8,65.0,responder,yes,no,maintain,10.0,1,non_responder
+882,40,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,23,severe,medium,antidepressant,2024-01-01,14.9,-8.1,35.22,partial_responder,no,no,adjust,,0,partial_responder
+883,21,male,East Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,11,moderate,high,combined,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,8.0,1,delayed_responder
+884,36,female,European,Berlin,Europe/Berlin,Android,Fitbit,15,moderately_severe,low,antidepressant,2024-01-01,6.1,-8.9,59.33,responder,no,no,maintain,12.0,1,non_responder
+885,40,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,low,antidepressant,2024-01-01,10.9,-4.1,27.33,partial_responder,no,no,adjust,,0,partial_responder
+886,45,male,African,Mumbai,Asia/Kolkata,Android,Fitbit,10,moderate,low,therapy,2024-01-01,8.5,-1.5,15.0,non_responder,no,no,switch,,0,non_responder
+887,49,female,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,8,mild,medium,combined,2024-01-01,1.5,-6.5,81.25,responder,yes,no,maintain,4.0,1,early_responder
+888,38,female,European,Berlin,Europe/Berlin,Android,Garmin,10,moderate,low,combined,2024-01-01,0.0,-10.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+889,31,male,East Asian,Nairobi,Africa/Nairobi,iOS,Xiaomi Band,21,severe,low,combined,2024-01-01,12.5,-8.5,40.48,partial_responder,no,no,adjust,,0,partial_responder
+890,39,female,Latino/Hispanic,Accra,Africa/Accra,Android,Fitbit,17,moderately_severe,high,therapy,2024-01-01,11.8,-5.2,30.59,partial_responder,no,no,adjust,,0,partial_responder
+891,52,male,Latino/Hispanic,London,Europe/London,iOS,Samsung Watch,8,mild,low,combined,2024-01-01,3.8,-4.2,52.5,responder,yes,no,maintain,12.0,1,non_responder
+892,18,male,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,13,moderate,medium,therapy,2024-01-01,5.2,-7.8,60.0,responder,no,no,maintain,12.0,1,unstable_responder
+893,22,female,Mixed/Other,Mumbai,Asia/Kolkata,Android,Garmin,13,moderate,medium,combined,2024-01-01,9.3,-3.7,28.46,partial_responder,no,no,maintain,,0,partial_responder
+894,64,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,high,combined,2024-01-01,7.6,-6.4,45.71,partial_responder,no,no,maintain,10.0,0,partial_responder
+895,39,female,European,London,Europe/London,iOS,Garmin,14,moderate,low,antidepressant,2024-01-01,6.3,-7.7,55.0,responder,no,no,maintain,12.0,1,non_responder
+896,40,male,African,Nairobi,Africa/Nairobi,Android,Fitbit,17,moderately_severe,low,antidepressant,2024-01-01,6.9,-10.1,59.41,responder,no,no,maintain,10.0,1,non_responder
+897,54,female,South Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,17,moderately_severe,low,combined,2024-01-01,5.4,-11.6,68.24,responder,no,no,maintain,10.0,1,non_responder
+898,30,female,African,Nairobi,Africa/Nairobi,Android,Fitbit,13,moderate,low,therapy,2024-01-01,1.2,-11.8,90.77,responder,yes,no,maintain,8.0,1,delayed_responder
+899,65,female,Latino/Hispanic,Nairobi,Africa/Nairobi,Android,Garmin,17,moderately_severe,medium,combined,2024-01-01,11.9,-5.1,30.0,partial_responder,no,no,maintain,,0,unstable_responder
+900,52,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,24,severe,medium,therapy,2024-01-01,15.2,-8.8,36.67,partial_responder,no,no,adjust,,0,partial_responder
+901,31,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,20,severe,medium,therapy,2024-01-01,17.7,-2.3,11.5,non_responder,no,no,adjust,,0,non_responder
+902,36,male,European,Berlin,Europe/Berlin,iOS,Fitbit,13,moderate,low,combined,2024-01-01,5.9,-7.1,54.62,responder,no,no,maintain,12.0,1,non_responder
+903,60,female,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,18,moderately_severe,low,therapy,2024-01-01,11.1,-6.9,38.33,partial_responder,no,no,adjust,,0,partial_responder
+904,53,male,Middle Eastern/North African,Berlin,Europe/Berlin,iOS,Samsung Watch,19,moderately_severe,low,therapy,2024-01-01,10.3,-8.7,45.79,partial_responder,no,no,adjust,,0,partial_responder
+905,45,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Xiaomi Band,15,moderately_severe,high,antidepressant,2024-01-01,10.7,-4.3,28.67,partial_responder,no,no,maintain,,0,partial_responder
+906,51,male,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Samsung Watch,18,moderately_severe,low,combined,2024-01-01,11.0,-7.0,38.89,partial_responder,no,no,adjust,,0,partial_responder
+907,55,female,Mixed/Other,London,Europe/London,iOS,Garmin,15,moderately_severe,low,antidepressant,2024-01-01,6.1,-8.9,59.33,responder,no,no,maintain,8.0,1,delayed_responder
+908,29,female,East Asian,Berlin,Europe/Berlin,Android,Garmin,13,moderate,low,combined,2024-01-01,4.8,-8.2,63.08,responder,yes,no,maintain,8.0,1,delayed_responder
+909,23,male,African,Dar es Salaam,Africa/Dar_es_Salaam,iOS,Garmin,12,moderate,low,antidepressant,2024-01-01,5.0,-7.0,58.33,responder,no,no,maintain,12.0,1,non_responder
+910,46,female,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,13,moderate,high,combined,2024-01-01,6.4,-6.6,50.77,responder,no,no,maintain,12.0,1,non_responder
+911,37,female,Mixed/Other,London,Europe/London,iOS,Garmin,10,moderate,medium,therapy,2024-01-01,5.3,-4.7,47.0,partial_responder,no,no,adjust,10.0,0,partial_responder
+912,46,female,European,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,10,moderate,high,therapy,2024-01-01,0.5,-9.5,95.0,responder,yes,no,maintain,10.0,1,non_responder
+913,25,female,East Asian,Mumbai,Asia/Kolkata,Android,Fitbit,10,moderate,low,antidepressant,2024-01-01,5.8,-4.2,42.0,partial_responder,no,no,maintain,,0,partial_responder
+914,40,female,Mixed/Other,Accra,Africa/Accra,Android,Samsung Watch,16,moderately_severe,high,combined,2024-01-01,6.1,-9.9,61.88,responder,no,no,maintain,6.0,1,delayed_responder
+915,45,female,South Asian,London,Europe/London,Android,Apple Watch,16,moderately_severe,high,combined,2024-01-01,5.2,-10.8,67.5,responder,no,no,maintain,10.0,1,non_responder
+916,42,female,European,Berlin,Europe/Berlin,Android,Xiaomi Band,14,moderate,high,combined,2024-01-01,8.0,-6.0,42.86,partial_responder,no,no,adjust,,0,unstable_responder
+917,57,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,19,moderately_severe,high,antidepressant,2024-01-01,14.2,-4.8,25.26,partial_responder,no,no,maintain,,0,partial_responder
+918,54,male,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,17,moderately_severe,low,combined,2024-01-01,11.1,-5.9,34.71,partial_responder,no,no,maintain,,0,partial_responder
+919,29,male,European,London,Europe/London,Android,Xiaomi Band,8,mild,low,therapy,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,2.0,1,early_responder
+920,19,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Samsung Watch,19,moderately_severe,low,therapy,2024-01-01,10.9,-8.1,42.63,partial_responder,no,no,adjust,,0,partial_responder
+921,39,male,Latino/Hispanic,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,12,moderate,low,combined,2024-01-01,2.7,-9.3,77.5,responder,yes,no,maintain,10.0,1,non_responder
+922,30,female,European,Mumbai,Asia/Kolkata,Android,Garmin,15,moderately_severe,medium,combined,2024-01-01,8.7,-6.3,42.0,partial_responder,no,no,maintain,,0,partial_responder
+923,30,male,South Asian,Nairobi,Africa/Nairobi,iOS,Garmin,12,moderate,low,combined,2024-01-01,4.7,-7.3,60.83,responder,yes,no,maintain,12.0,1,unstable_responder
+924,28,male,East Asian,London,Europe/London,Android,Apple Watch,13,moderate,medium,antidepressant,2024-01-01,10.2,-2.8,21.54,non_responder,no,no,switch,,0,non_responder
+925,60,male,European,Berlin,Europe/Berlin,Android,Garmin,13,moderate,medium,therapy,2024-01-01,7.4,-5.6,43.08,partial_responder,no,no,maintain,,0,partial_responder
+926,23,female,African,Accra,Africa/Accra,Android,Xiaomi Band,11,moderate,low,antidepressant,2024-01-01,4.1,-6.9,62.73,responder,yes,no,maintain,12.0,1,non_responder
+927,47,female,African,London,Europe/London,Android,Apple Watch,18,moderately_severe,low,antidepressant,2024-01-01,4.5,-13.5,75.0,responder,yes,no,maintain,10.0,1,non_responder
+928,44,female,Mixed/Other,London,Europe/London,Android,Garmin,12,moderate,medium,combined,2024-01-01,5.2,-6.8,56.67,responder,no,no,maintain,10.0,1,non_responder
+929,56,male,African,Berlin,Europe/Berlin,Android,Fitbit,10,moderate,low,antidepressant,2024-01-01,8.3,-1.7,17.0,non_responder,no,no,switch,,0,non_responder
+930,26,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,25,severe,low,antidepressant,2024-01-01,19.0,-6.0,24.0,non_responder,no,no,switch,,0,non_responder
+931,42,female,European,Mumbai,Asia/Kolkata,Android,Garmin,10,moderate,high,antidepressant,2024-01-01,6.7,-3.3,33.0,partial_responder,no,no,adjust,,0,partial_responder
+932,46,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,16,moderately_severe,low,antidepressant,2024-01-01,2.3,-13.7,85.62,responder,yes,no,maintain,10.0,1,non_responder
+933,56,female,South Asian,Nairobi,Africa/Nairobi,Android,Xiaomi Band,21,severe,low,combined,2024-01-01,13.3,-7.7,36.67,partial_responder,no,no,adjust,,0,partial_responder
+934,45,male,South Asian,Accra,Africa/Accra,Android,Xiaomi Band,15,moderately_severe,medium,combined,2024-01-01,6.4,-8.6,57.33,responder,no,no,maintain,12.0,1,non_responder
+935,34,female,South Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,13,moderate,high,combined,2024-01-01,9.9,-3.1,23.85,non_responder,no,no,adjust,,0,non_responder
+936,30,female,European,Mumbai,Asia/Kolkata,Android,Xiaomi Band,14,moderate,low,combined,2024-01-01,5.1,-8.9,63.57,responder,no,no,maintain,12.0,1,non_responder
+937,27,female,African,Berlin,Europe/Berlin,iOS,Samsung Watch,21,severe,medium,combined,2024-01-01,12.1,-8.9,42.38,partial_responder,no,no,maintain,,0,partial_responder
+938,44,male,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,15,moderately_severe,medium,antidepressant,2024-01-01,4.5,-10.5,70.0,responder,yes,no,maintain,10.0,1,non_responder
+939,19,male,South Asian,London,Europe/London,iOS,Apple Watch,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,2.0,0,delayed_responder
+940,28,male,European,London,Europe/London,Android,Apple Watch,15,moderately_severe,medium,combined,2024-01-01,10.3,-4.7,31.33,partial_responder,no,no,maintain,,0,partial_responder
+941,63,female,Latino/Hispanic,Mumbai,Asia/Kolkata,iOS,Xiaomi Band,13,moderate,high,combined,2024-01-01,6.3,-6.7,51.54,responder,no,no,maintain,12.0,1,non_responder
+942,19,male,Latino/Hispanic,London,Europe/London,Android,Fitbit,13,moderate,medium,antidepressant,2024-01-01,5.9,-7.1,54.62,responder,no,no,maintain,12.0,1,non_responder
+943,26,male,Middle Eastern/North African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,16,moderately_severe,high,antidepressant,2024-01-01,9.0,-7.0,43.75,partial_responder,no,no,adjust,,0,partial_responder
+944,50,female,South Asian,Mumbai,Asia/Kolkata,Android,Garmin,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+945,25,female,African,Mumbai,Asia/Kolkata,iOS,Samsung Watch,17,moderately_severe,medium,combined,2024-01-01,8.7,-8.3,48.82,partial_responder,no,no,adjust,,0,partial_responder
+946,59,male,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,12,moderate,high,therapy,2024-01-01,3.1,-8.9,74.17,responder,yes,no,maintain,10.0,1,non_responder
+947,18,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Apple Watch,16,moderately_severe,medium,antidepressant,2024-01-01,9.7,-6.3,39.38,partial_responder,no,no,maintain,,0,partial_responder
+948,33,female,African,Berlin,Europe/Berlin,Android,Fitbit,22,severe,low,combined,2024-01-01,9.7,-12.3,55.91,responder,no,no,maintain,10.0,1,non_responder
+949,31,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,14,moderate,low,therapy,2024-01-01,1.2,-12.8,91.43,responder,yes,no,maintain,10.0,1,non_responder
+950,49,male,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,21,severe,medium,therapy,2024-01-01,9.2,-11.8,56.19,responder,no,no,maintain,10.0,1,non_responder
+951,19,female,East Asian,Berlin,Europe/Berlin,iOS,Samsung Watch,18,moderately_severe,medium,therapy,2024-01-01,9.6,-8.4,46.67,partial_responder,no,no,adjust,6.0,0,partial_responder
+952,40,female,East Asian,London,Europe/London,Android,Samsung Watch,13,moderate,medium,antidepressant,2024-01-01,4.2,-8.8,67.69,responder,yes,no,maintain,10.0,1,non_responder
+953,48,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,20,severe,high,therapy,2024-01-01,13.5,-6.5,32.5,partial_responder,no,no,maintain,,0,partial_responder
+954,34,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,16,moderately_severe,low,combined,2024-01-01,3.8,-12.2,76.25,responder,yes,no,maintain,8.0,1,delayed_responder
+955,36,male,Latino/Hispanic,Accra,Africa/Accra,iOS,Xiaomi Band,12,moderate,high,therapy,2024-01-01,0.6,-11.4,95.0,responder,yes,no,maintain,8.0,1,delayed_responder
+956,18,male,African,London,Europe/London,iOS,Apple Watch,15,moderately_severe,medium,combined,2024-01-01,8.5,-6.5,43.33,partial_responder,no,no,maintain,,0,unstable_responder
+957,60,female,East Asian,Nairobi,Africa/Nairobi,Android,Fitbit,11,moderate,medium,therapy,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+958,32,female,South Asian,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,12,moderate,low,combined,2024-01-01,5.3,-6.7,55.83,responder,no,no,maintain,12.0,1,unstable_responder
+959,18,female,European,Accra,Africa/Accra,Android,Fitbit,11,moderate,medium,combined,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,4.0,1,early_responder
+960,51,male,South Asian,London,Europe/London,iOS,Xiaomi Band,14,moderate,medium,therapy,2024-01-01,3.9,-10.1,72.14,responder,yes,no,maintain,12.0,1,non_responder
+961,37,female,Mixed/Other,Nairobi,Africa/Nairobi,Android,Garmin,12,moderate,medium,combined,2024-01-01,7.5,-4.5,37.5,partial_responder,no,no,maintain,,0,unstable_responder
+962,48,male,African,London,Europe/London,iOS,Garmin,15,moderately_severe,low,combined,2024-01-01,8.7,-6.3,42.0,partial_responder,no,no,maintain,,0,partial_responder
+963,39,male,African,Nairobi,Africa/Nairobi,Android,Samsung Watch,14,moderate,medium,combined,2024-01-01,3.5,-10.5,75.0,responder,yes,no,maintain,4.0,0,early_responder
+964,59,male,Middle Eastern/North African,London,Europe/London,Android,Fitbit,11,moderate,low,antidepressant,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+965,28,female,South Asian,Berlin,Europe/Berlin,iOS,Garmin,25,severe,high,therapy,2024-01-01,24.0,-1.0,4.0,non_responder,no,no,switch,,0,non_responder
+966,58,female,Middle Eastern/North African,Accra,Africa/Accra,Android,Garmin,15,moderately_severe,low,therapy,2024-01-01,3.1,-11.9,79.33,responder,yes,no,maintain,10.0,1,non_responder
+967,50,female,South Asian,Berlin,Europe/Berlin,Android,Apple Watch,12,moderate,medium,antidepressant,2024-01-01,2.5,-9.5,79.17,responder,yes,no,maintain,6.0,1,delayed_responder
+968,31,female,African,London,Europe/London,Android,Apple Watch,12,moderate,low,antidepressant,2024-01-01,0.8,-11.2,93.33,responder,yes,no,maintain,6.0,1,delayed_responder
+969,40,female,South Asian,Mumbai,Asia/Kolkata,Android,Samsung Watch,11,moderate,medium,combined,2024-01-01,0.0,-11.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+970,61,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,14,moderate,high,combined,2024-01-01,7.4,-6.6,47.14,partial_responder,no,no,maintain,,0,partial_responder
+971,33,female,African,Berlin,Europe/Berlin,Android,Fitbit,18,moderately_severe,high,combined,2024-01-01,10.3,-7.7,42.78,partial_responder,no,no,adjust,,0,partial_responder
+972,56,male,African,London,Europe/London,Android,Garmin,24,severe,medium,therapy,2024-01-01,15.6,-8.4,35.0,partial_responder,no,no,adjust,,0,partial_responder
+973,47,female,African,Berlin,Europe/Berlin,Android,Samsung Watch,16,moderately_severe,medium,combined,2024-01-01,3.5,-12.5,78.12,responder,yes,no,maintain,10.0,1,non_responder
+974,65,male,Latino/Hispanic,Berlin,Europe/Berlin,Android,Fitbit,18,moderately_severe,low,combined,2024-01-01,14.9,-3.1,17.22,non_responder,no,no,adjust,,0,non_responder
+975,34,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,8,mild,medium,combined,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+976,21,female,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,15,moderately_severe,medium,combined,2024-01-01,5.5,-9.5,63.33,responder,no,no,maintain,12.0,1,non_responder
+977,19,male,Middle Eastern/North African,Nairobi,Africa/Nairobi,Android,Xiaomi Band,21,severe,medium,antidepressant,2024-01-01,14.4,-6.6,31.43,partial_responder,no,no,adjust,,0,partial_responder
+978,32,male,South Asian,London,Europe/London,Android,Xiaomi Band,18,moderately_severe,medium,antidepressant,2024-01-01,10.4,-7.6,42.22,partial_responder,no,no,adjust,,0,partial_responder
+979,65,female,European,Berlin,Europe/Berlin,Android,Fitbit,11,moderate,low,antidepressant,2024-01-01,2.2,-8.8,80.0,responder,yes,no,maintain,8.0,1,delayed_responder
+980,30,female,East Asian,Nairobi,Africa/Nairobi,Android,Fitbit,21,severe,low,therapy,2024-01-01,13.9,-7.1,33.81,partial_responder,no,no,maintain,,0,partial_responder
+981,46,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Apple Watch,9,mild,medium,combined,2024-01-01,3.4,-5.6,62.22,responder,yes,no,maintain,4.0,0,early_responder
+982,55,female,Middle Eastern/North African,Mumbai,Asia/Kolkata,Android,Apple Watch,8,mild,medium,combined,2024-01-01,3.2,-4.8,60.0,responder,yes,no,maintain,12.0,1,non_responder
+983,32,male,East Asian,London,Europe/London,Android,Apple Watch,16,moderately_severe,low,therapy,2024-01-01,5.6,-10.4,65.0,responder,no,no,maintain,8.0,0,delayed_responder
+984,29,female,East Asian,Mumbai,Asia/Kolkata,Android,Xiaomi Band,13,moderate,medium,antidepressant,2024-01-01,0.9,-12.1,93.08,responder,yes,no,maintain,8.0,1,delayed_responder
+985,19,male,Middle Eastern/North African,London,Europe/London,Android,Apple Watch,12,moderate,low,therapy,2024-01-01,5.6,-6.4,53.33,responder,no,no,maintain,12.0,1,non_responder
+986,21,female,Latino/Hispanic,Mumbai,Asia/Kolkata,Android,Xiaomi Band,8,mild,medium,antidepressant,2024-01-01,0.0,-8.0,100.0,responder,yes,no,maintain,6.0,1,delayed_responder
+987,61,female,European,London,Europe/London,Android,Samsung Watch,19,moderately_severe,high,therapy,2024-01-01,14.4,-4.6,24.21,non_responder,no,no,switch,,0,non_responder
+988,21,male,Latino/Hispanic,Berlin,Europe/Berlin,Android,Apple Watch,16,moderately_severe,medium,antidepressant,2024-01-01,6.3,-9.7,60.62,responder,no,no,maintain,10.0,1,non_responder
+989,47,male,European,Berlin,Europe/Berlin,Android,Garmin,20,severe,medium,antidepressant,2024-01-01,6.5,-13.5,67.5,responder,no,no,maintain,12.0,1,non_responder
+990,65,female,South Asian,Mumbai,Asia/Kolkata,Android,Fitbit,19,moderately_severe,low,combined,2024-01-01,7.0,-12.0,63.16,responder,no,no,maintain,12.0,1,non_responder
+991,63,male,East Asian,Berlin,Europe/Berlin,Android,Apple Watch,16,moderately_severe,low,therapy,2024-01-01,3.0,-13.0,81.25,responder,yes,no,maintain,8.0,1,delayed_responder
+992,31,male,African,Berlin,Europe/Berlin,Android,Fitbit,12,moderate,high,therapy,2024-01-01,1.0,-11.0,91.67,responder,yes,no,maintain,10.0,1,non_responder
+993,26,female,Mixed/Other,Dar es Salaam,Africa/Dar_es_Salaam,Android,Xiaomi Band,17,moderately_severe,high,therapy,2024-01-01,11.6,-5.4,31.76,partial_responder,no,no,adjust,,0,partial_responder
+994,22,female,European,Berlin,Europe/Berlin,iOS,Samsung Watch,12,moderate,low,combined,2024-01-01,4.7,-7.3,60.83,responder,yes,no,maintain,8.0,1,delayed_responder
+995,59,male,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Garmin,8,mild,low,combined,2024-01-01,4.6,-3.4,42.5,partial_responder,yes,no,maintain,,0,partial_responder
+996,59,female,African,Berlin,Europe/Berlin,Android,Apple Watch,14,moderate,medium,antidepressant,2024-01-01,3.5,-10.5,75.0,responder,yes,no,maintain,8.0,1,delayed_responder
+997,19,female,European,Mumbai,Asia/Kolkata,Android,Xiaomi Band,19,moderately_severe,high,antidepressant,2024-01-01,7.3,-11.7,61.58,responder,no,no,maintain,12.0,1,non_responder
+998,58,female,Latino/Hispanic,London,Europe/London,Android,Fitbit,14,moderate,medium,antidepressant,2024-01-01,4.3,-9.7,69.29,responder,yes,no,maintain,10.0,1,non_responder
+999,34,female,African,Dar es Salaam,Africa/Dar_es_Salaam,Android,Fitbit,20,severe,low,combined,2024-01-01,12.9,-7.1,35.5,partial_responder,no,no,maintain,,0,partial_responder

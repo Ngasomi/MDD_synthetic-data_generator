@@ -1,0 +1,6 @@
+trajectory_group,number_of_participants,percentage
+delayed_responder,197,19.7
+early_responder,235,23.5
+non_responder,182,18.2
+partial_responder,235,23.5
+unstable_responder,151,15.1

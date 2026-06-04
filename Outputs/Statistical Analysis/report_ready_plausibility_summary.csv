@@ -1,0 +1,8 @@
+Plausibility dimension,Analysis performed,Purpose
+Distribution realism,"Distribution plots and descriptive statistics for key clinical, behavioral, physiological, and digital variables","To assess whether variables show plausible central tendencies, variation, and distributions"
+Expected range plausibility,"Range checks for PHQ-9, sleep, activity, HRV, heart rate, mobility, screen use, and missingness indicators",To confirm that generated values remain within defensible clinical and behavioral ranges
+Dependency realism,Correlation matrix and selected clinically meaningful pairwise relationships,To examine whether relationships among variables follow expected clinical and behavioral assumptions
+Temporal realism,Weekly trajectory plots for symptoms and behavioral variables,To assess whether symptom progression and behavioral change evolve plausibly across time
+Clinical realism,PHQ-9 trajectories by responder group,To assess whether response profiles show clinically meaningful symptom trajectories
+Responder group distinction,Behavioral and physiological profiles compared across responder groups,To evaluate whether responder groups show distinct behavioral and physiological profiles
+Missingness realism,"Overall missingness, missingness by dataset, missingness over time, and sensor missingness trends",To ensure missing data patterns are present but not excessive or unrealistic

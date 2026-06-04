@@ -1,0 +1,14 @@
+Variable 1,Variable 2,Pearson correlation
+PHQ_score,steps,-0.3774103899145451
+PHQ_score,sedentary_min,0.6006152201859517
+PHQ_score,sleep_efficiency,-0.6686805749085637
+PHQ_score,WASO_min,0.5560659024816025
+PHQ_score,time_at_home,0.3419662695142515
+PHQ_score,location_entropy,-0.5877554039142401
+PHQ_score,night_screen_time,0.7442192012278738
+PHQ_score,screen_time,0.36087476832026794
+PHQ_score,unique_contacts,-0.3573249502968454
+sleep_efficiency,steps,0.2774009312306269
+sleep_efficiency,sedentary_min,-0.45529164542310996
+steps,sedentary_min,-0.5303750852139156
+time_at_home,location_entropy,-0.2619827016915545

@@ -1,0 +1,6 @@
+Plausibility dimension,Assessment performed,Purpose
+Distribution realism,"Distribution plots of key behavioral, physiological, and clinical variables",To inspect whether generated variables showed plausible value distributions
+Dependency realism,Correlation analysis and selected clinically meaningful relationships,To examine whether variable relationships followed expected clinical and behavioral assumptions
+Temporal realism,Longitudinal trajectory plots of symptoms and behavioral variables,To assess whether symptom progression and behavioral change evolved plausibly over time
+Clinical realism,Responder group comparisons using PHQ-9 trajectories and behavioral profiles,To evaluate whether responder groups showed distinct and clinically meaningful profiles
+Missingness realism,"Missingness checks across variables, datasets, and time",To ensure missing data patterns were present but not excessive or unrealistic
